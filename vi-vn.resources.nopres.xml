@@ -4713,8 +4713,8 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductSearchTermMinimumLength">
 		<Value>Số lượng "Sản phẩm mới nhập"</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsNumber.Hint">
-		<Value>Số lượng "Sản phẩm mới nhập" được hiển thị.</Value>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductSearchTermMinimumLength.Hint">
+		<Value>Cụ thể hóa chiều dài tối thiểu của mục tìm kiếm.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsEnabled">
 		<Value>Kích hoạt "Sản phẩm mới xem"</Value>
@@ -4727,6 +4727,9 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyViewedProductsNumber.Hint">
 		<Value>Số lượng "Sản phẩm mới xem" được hiển thị.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.Search">
+		<Value>Tìm kiếm</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageAllowCustomersToSelectPageSize">
 		<Value>Trang tìm kiếm. Cho phép khách hàng để lựa chọn kích thước trang</Value>
@@ -4745,6 +4748,9 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.SearchPageProductsPerPage.Hint">
 		<Value>Số lượng sản phẩm trên trang tìm kiếm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.Sharing">
+		<Value>Chia sẻ</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowBestsellersOnHomepage">
 		<Value>Hiển thị sản phẩm bán chạy nhất trên trang chủ</Value>
@@ -4805,12 +4811,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ShowShareButton.Hint">
 		<Value>Chọn hiển thị nút chia sẻ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.TopCategoryMenuSubcategoryLevelsToDisplay">
-		<Value>Số cấp danh mục được hiển thị trên Top menu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.TopCategoryMenuSubcategoryLevelsToDisplay.Hint">
-		<Value>Nhập số cấp tiểu thể hiển thị trong Menu top danh mục</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser">
 		<Value>Cấu hình khách hàng</Value>
@@ -5009,6 +5009,18 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthEnabled.Hint">
 		<Value>Kích hoạt "Ngày sinh".</Value>
+			</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthMinimumAge">
+		<Value>Customer minimum age</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthMinimumAge.Hint">
+		<Value>Enter minimum allowed age. Leave empty if customers of all ages are allowed.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired">
+		<Value>'Date of Birth' required</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateOfBirthRequired.Hint">
+		<Value>Check if 'Date of Birth' is required.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.DateTimeSettings">
 		<Value>Kích hoạt "Ngày giờ"</Value>
@@ -5076,6 +5088,12 @@
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.HideNewsletterBlock.Hint">
 		<Value>Ẩn mục nhắn cá nhân.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterBlockAllowToUnsubscribe">
+		<Value>Newsletter box. Allow to unsubscribe</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterBlockAllowToUnsubscribe.Hint">
+		<Value>Check if you want to allow customers to display "unsubscribe" option in the newsletter block.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.NewsletterEnabled">
 		<Value>Kích hoạt "Tin nhắn cá nhân"</Value>
 	</LocaleResource>
@@ -5096,6 +5114,18 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PhoneEnabled">
 		<Value>Kích hoạt "Số điện thoại"</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PasswordMinLength.Hint">
+		<Value>Specify password minimum length.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PasswordRecoveryLinkDaysValid">
+		<Value>Password recovery link. Days valid</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PasswordRecoveryLinkDaysValid.Hint">
+		<Value>Enter number of days for password recovery link. Set to 0 if it doesn't expire..</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PhoneEnabled">
+		<Value>'Phone number' enabled</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.CustomerUser.PhoneEnabled.Hint">
 		<Value>Kích hoạt "Số điện thoại".</Value>
@@ -5198,6 +5228,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsFeedEnabled.Hint">
 		<Value>Kích hoạt RSS feed cho các chủ đề hiện tại.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsPageSize">
+		<Value>Active discussions page size</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Forums.ActiveDiscussionsPageSize.Hint">
+		<Value>Set the page size for active discussions page e.g. '10' results per page.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Forums.AllowCustomersToDeletePosts">
 		<Value>Cho phép khách hàng xóa bài viết</Value>
@@ -5338,7 +5374,13 @@
 		<Value>Kích hoạt CAPTCHA</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaEnabled.Hint">
-		<Value>Chọn để hiển thị CAPTCHA</Value>
+		<Value>Check to enable CAPTCHA</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnApplyVendorPage">
+		<Value>Show on apply for vendor account page</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnApplyVendorPage.Hint">
+		<Value>Check to show CAPTCHA on apply for vendor account page.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.CaptchaShowOnBlogCommentPage">
 		<Value>Hiển thị trên trang blog (bình luận)</Value>
@@ -5412,21 +5454,6 @@
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.GetMore">
 		<Value>Bạn có thể nhận được thêm các giao diện trên</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreTheme.Hint">
-		<Value>Các chủ đề cửa hàng công cộng. Bạn có thể tải về các giao diện, phần mở rộng từ trang www.nopcommerce.com.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForDesktops">
-		<Value>Giao diện hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForDesktops.GetMore">
-		<Value>You can get more themes on</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForDesktops.Hint">
-		<Value>Giao diện hiển thị cho máy bàn, laptop.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForMobileDevices">
-		<Value>Giao diện hiển thị cho thiết bị di động</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultStoreThemeForMobileDevices.Hint">
 		<Value>Chủ đề mặc định cho các thiết bị di động.</Value>
 	</LocaleResource>
@@ -5435,6 +5462,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DefaultTitle.Hint">
 		<Value>Tiêu đề mặc định cho các trang.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders">
+		<Value>Disable PDF invoices for pending orders</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisablePdfInvoicesForPendingOrders.Hint">
+		<Value>If checked, customers won't be allowed to print PDF invoices for pending orders.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.DisplayEuCookieLawWarning">
 		<Value>Hiển thị thông báo EU cookie law</Value>
@@ -5452,7 +5485,19 @@
 		<Value>Nén các file Javascript</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableJsBundling.Hint">
-		<Value>Kích hoạt để kết hợp (bó) nhiều tập tin JavaScript vào một file duy nhất. Không cho phép nếu bạn đang chạy nopCommerce trong trang trại web hoặc Windows Azure. Lưu ý rằng tính năng này đòi hỏi tài nguyên máy chủ đáng kể (không được khuyến cáo sử dụng với giá rẻ chia sẻ kế hoạch lưu trữ).</Value>
+		<Value>Enable to combine (bundle) multiple JavaScript files into a single file. Note that this functionality requires significant server resources (not recommended to use with cheap shared hosting plans).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableXSRFProtectionForAdminArea">
+		<Value>Enable XSRF protection for admin area</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableXSRFProtectionForAdminArea.Hint">
+		<Value>Check to enable XSRF protection for admin area.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableXSRFProtectionForPublicStore">
+		<Value>Enable XSRF protection for public store</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EnableXSRFProtectionForPublicStore.Hint">
+		<Value>Check to enable XSRF protection for public store.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.EncryptionKey">
 		<Value>Khóa mã hóa riêng</Value>
@@ -5568,18 +5613,6 @@
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.LocalizationSettings">
 		<Value>Cấu hình hạn định</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.MobileDevicesSupported">
-		<Value>Hỗ trợ thiết bị di động</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.MobileDevicesSupported.Hint">
-		<Value>Chọn để hỗ trợ thiết bị di động.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.NonSharedSSLUrl">
-		<Value>Địa chỉ không bảo mật</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.NonSharedSSLUrl.Hint">
-		<Value>Nhập địa chỉ không bảo mật (sử dụng khi có chứng chỉ SSL được cài đặt).Thực tế chính là địa chỉ trang web của bạn, ví dụ http://www.thegioiAG.net/.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.OpenGraphMetaTags">
 		<Value>Mở thẻ Graph META</Value>
 	</LocaleResource>
@@ -5597,12 +5630,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PageTitleSeparator.Hint">
 		<Value>Xác định ngăn cách tiêu đề trang.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PdfEnabled">
-		<Value>Kích hoạt</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PdfEnabled.Hint">
-		<Value>Chọn để kích hoạt PDT.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.PdfLetterPageSizeEnabled">
 		<Value>Sử dụng kích thước kiểu trang thư</Value>
@@ -5631,12 +5658,6 @@
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.reCaptchaPublicKey.Hint">
 		<Value>Nhập khóa reCAPTCHA chung (nếu kích hoạt)</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ResponsiveDesignSupported">
-		<Value>Thiết kế Responsive được hỗ trợ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.ResponsiveDesignSupported.Hint">
-		<Value>Tích cho phép Responsive đáp ứng. Cũng lưu ý rằng chủ đề đồ họa của bạn cũng nên hỗ trợ nó.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SecuritySettings">
 		<Value>Cấu hình bảo mật</Value>
 	</LocaleResource>
@@ -5649,44 +5670,20 @@
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SEOSettings">
 		<Value>Cấu hình SEO</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SharedSSLUrl">
-		<Value>Địa chỉ chia sẻ SSL</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SharedSSLUrl.Hint">
-		<Value>Nhập địa chỉ chia sẻ SSL ví dụ, https://secure123.yourHosting.com/.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SSLSettings">
-		<Value>SSL settings</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SSLSettings.Hint">
-		<Value>SSL settings can also be changed in web.config file.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosed">
 		<Value>Đóng cửa hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosed.Hint">
 		<Value>Chọn để đóng cửa, không chon để mở cửa.</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosedAllowForAdmins">
-		<Value>Cho phép quản trị viên thấy cửa hàng đóng cửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreClosedAllowForAdmins.Hint">
-		<Value>Chọn để cho phép người dùng có thể truy cập quản trị khi cửa hàng đóng cửa.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreInformationSettings">
 		<Value>Thông tin cửa hàng</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreName">
-		<Value>Tên cửa hàng</Value>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SubjectFieldOnContactUsForm">
+		<Value>Trang liên hệ chúng tôi. 'Chủ đề'</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreName.Hint">
-		<Value>Tên cửa hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreUrl">
-		<Value>Địa chỉ cửa hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.StoreUrl.Hint">
-		<Value>Địa chỉ URL của trang web cửa hàng ví dụ http://www.thegioiAG.net/</Value>
+	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.SubjectFieldOnContactUsForm.Hint">
+		<Value>Kiểm tra cho phép khách hàng soạn chủ đề trên trang liên hệ.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.GeneralCommon.TwitterLink">
 		<Value>Đường dẫn tới trang Twitter</Value>
@@ -5751,6 +5748,12 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Media.CategoryThumbPictureSize.Hint">
 		<Value>Kích thước mặc định của ảnh phác thảo trên trang nhà danh mục.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality">
+		<Value>Default image quality (0 - 100)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Media.DefaultImageQuality.Hint">
+		<Value>The image quality to be used for uploaded images. Once changed you have to manually delete already generated thumbs.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Media.ManufacturerThumbPictureSize">
 		<Value>Kích thước ảnh thu nhỏ của danh mục con nhà sản xuất trong từng trang nhà sản xuất</Value>
 	</LocaleResource>
@@ -5811,10 +5814,10 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Media.ProductThumbPictureSizeOnProductDetailsPage.Hint">
 		<Value>Kích thước mặc định (pixels) cho ảnh sản phẩm hiển thị trên trang chi tiết sản phẩm khi có nhiều ảnh.</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Media.ProductVariantPictureSize">
+	<LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize">
 		<Value>Kích thước ảnh biến thể sản phẩm</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Media.ProductVariantPictureSize.Hint">
+	<LocaleResource Name="Admin.Configuration.Settings.Media.VendorThumbPictureSize.Hint">
 		<Value>Chọn kích thước mặc định (pixels) cho ảnh các biến thể sản phẩm.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.News">
@@ -5929,7 +5932,13 @@
 		<Value>Tổng giá trị phụ tối thiểu của đơn hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Order.MinOrderSubtotalAmount.Hint">
-		<Value>Tổng giá trị phụ tối thiểu của đơn hàng.</Value>
+		<Value>Số lượng tổng cộng đặt hàng tối thiểu.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.MinOrderSubtotalAmountIncludingTax">
+		<Value>Calculate 'Min order sub-total amount' including tax</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.MinOrderSubtotalAmountIncludingTax.Hint">
+		<Value>Check to calculate 'Min order sub-total amount' value including tax; otherwise excluding tax.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Order.MinOrderTotalAmount">
 		<Value>Tổng giá trị tối thiểu của đơn hàng</Value>
@@ -6021,8 +6030,68 @@
 	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.DisplayHowMuchWillBeEarned.Hint">
 		<Value>Kiểm tra để hiển thị bao nhiêu điểm sẽ được thu trước khi thanh toán.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.DisplayOrder.Hint">
+		<Value>The return request reason display order. 1 represents the first item in the list.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.EditDetails">
+		<Value>Edit return request reason details</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Hint">
+		<Value>List of reasons a customer will be able to choose when submitting a return request.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Name.Required">
+		<Value>Please provide a name.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Name">
+		<Value>Name</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Name.Hint">
+		<Value>The return request reason name.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestReasons.Updated">
+		<Value>The return request reason has been updated successfully.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsDescription1">
+		<Value>The returns system will allow your customers to request a return on items they've purchased. These are also known as RMA requests.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsDescription2">
+		<Value>NOTE: This option is available for completed orders.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsEnabled">
+		<Value>Enable Returns System</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestsEnabled.Hint">
+		<Value>Check if you want to allow customers to submit return requests for items they've previously purchased.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.ReturnRequestSettings">
+		<Value>Return request settings</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage">
+		<Value>Terms of service (confirm order page)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnOrderConfirmPage.Hint">
+		<Value>Require customers to accept or decline terms of service before processing the order (on the confirm order page)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnShoppingCartPage">
+		<Value>Terms of service (shopping cart page)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Order.TermsOfServiceOnShoppingCartPage.Hint">
+		<Value>Require customers to accept or decline terms of service before processing the order (on the shopping cart page)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints">
+		<Value>Reward points</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Description">
+		<Value>The Reward Points Program allows customers to earn points for certain actions they take on the site. Points are awarded based on making purchases and customer actions such as registration.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.DisplayHowMuchWillBeEarned">
+		<Value>Display how much will be earned</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.DisplayHowMuchWillBeEarned.Hint">
+		<Value>Check to display how much point will be earned before checkout.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Earning">
-		<Value>Nhận điểm thưởng</Value>
+		<Value>Earning Reward Points</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.Earning.Hint1">
 		<Value>Mỗi người khi mua</Value>
@@ -6053,6 +6122,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.MinimumRewardPointsToUse.Hint">
 		<Value>Khách hàng không thể sử dụng điểm thưởng trước khi họ có X điểm. Thiết lập băng 0 nếu bạn không muốn sử dụng tính năng này</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsAccumulatedForAllStores">
+		<Value>Points accumulated for all stores</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsAccumulatedForAllStores.Hint">
+		<Value>Check to accumulate all reward points in one balance for all stores so they can be used in any store. Otherwise, each store has its own rewards points and they can only be used in that store. WARNING: not recommended to change in production environment with several stores already created.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.RewardPoints.PointsForPurchases_Amount">
 		<Value>Điểm cho mua hàng</Value>
@@ -6134,6 +6209,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Shipping.FreeShippingOverXValue.Hint">
 		<Value>Tất cả các đơn hàng với tổng giá trị lớn hơn "X" sẽ được miễn phí vận chuyển.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Shipping.NotifyCustomerAboutShippingFromMultipleLocations">
+		<Value>Notify customer about shipping from multiple locations</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Shipping.NotifyCustomerAboutShippingFromMultipleLocations.Hint">
+		<Value>Check if you want customers to be notified when shipping from multiple locations.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Shipping.PickUpInStoreFee">
 		<Value>Phí "Thanh toán tại cửa hàng"</Value>
@@ -6406,7 +6487,19 @@
 		<Value>Loại hiển thị thuế.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Vendor">
-		<Value>Cấu hình nhà cung cấp</Value>
+		<Value>Vendor settings</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowCustomersToApplyForVendorAccount">
+		<Value>Allow customers to apply for vendor account</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowCustomersToApplyForVendorAccount.Hint">
+		<Value>Check to allow customers users to fill a form to become a new vendor. Then a store owner will have to manually approve it.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowCustomersToContactVendors">
+		<Value>Allow customers to contact vendors</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Vendor.AllowCustomersToContactVendors.Hint">
+		<Value>Check to allow customers to contact vendors.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Vendor.ShowVendorOnProductDetailsPage">
 		<Value>Hiển thị nhà cung cấp trên trang chi tiết sản phẩm</Value>
@@ -6558,12 +6651,6 @@
 	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.Address">
 		<Value>Địa chỉ</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.AdminComment">
-		<Value>Admin bình luận</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.AdminComment.Hint">
-		<Value>Admin bình luận. Sử dụng trong nội bộ</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.Name">
 		<Value>Tên</Value>
 	</LocaleResource>
@@ -6576,8 +6663,14 @@
 	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Updated">
 		<Value>Đã cập nhật thông tin nhà kho</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Fields.AdminComment.Hint">
+		<Value>Admin comment. For internal use.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Shipping.Warehouses.Updated">
+		<Value>The warehouse has been updated successfully.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.SMSProviders">
-		<Value>Hệ thống SMS</Value>
+		<Value>SMS providers</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.SMSProviders.BackToList">
 		<Value>Trở về danh sách hệ thống cung cấp SMS</Value>
@@ -6593,9 +6686,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.SMSProviders.Fields.SystemName">
 		<Value>Tên hệ thống cung cấp</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.configuration.storemapping.addnew">
-		<Value>Thêm mới</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Stores">
 		<Value>Gian hàng</Value>
@@ -6639,14 +6729,17 @@
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.CompanyVat.Hint">
 		<Value>Nhập VAT công ty của bạn (thuế giá trị gia tăng Liên minh châu Âu)</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage">
+		<Value>Default language</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Stores.Fields.DefaultLanguage.Hint">
+		<Value>This property allows a store owner to specify a default language for a store. If not specified, then the default language display order will be used.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.DisplayOrder">
 		<Value>Thứ tự hiển thị</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.DisplayOrder.Hint">
 		<Value>Thứ tự hiển thị của gian hàng. 1 có nghĩa đứng đầu danh sách</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.configuration.stores.fields.entityname">
-		<Value>entityname</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.Hosts">
 		<Value>Địa chỉ HOST</Value>
@@ -6678,12 +6771,6 @@
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.SslEnabled.Hint2">
 		<Value>Cảnh báo: Không kích hoạt SSL cho đến khi bạn có chứng nhận đã cài đặt SSL trên máy chủ</Value>
 	</LocaleResource>
-	<LocaleResource Name="admin.configuration.stores.fields.storename">
-		<Value>Tên gian hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.configuration.stores.fields.storeurl">
-		<Value>Địa chỉ</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.Url">
 		<Value>Đường dẫn gian hàng</Value>
 	</LocaleResource>
@@ -6693,17 +6780,8 @@
 	<LocaleResource Name="Admin.Configuration.Stores.Fields.Url.Required">
 		<Value>Nhập đường dẫn gian hàng là bắt buộc</Value>
 	</LocaleResource>
-	<LocaleResource Name="admin.configuration.stores.fields.username">
-		<Value>Tài khoản</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Stores.Updated">
 		<Value>Đã cập nhật gian hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.configuration.storesmapping">
-		<Value>Ánh xạ người dùng - gian hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.configuration.storesmapping.editstoremappingdetails">
-		<Value>Sửa danh sách ánh xạ gian hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Tax">
 		<Value>Thuế</Value>
@@ -6744,113 +6822,8 @@
 	<LocaleResource Name="Admin.Configuration.Updated">
 		<Value>Cấu hình được cập nhập thành công.</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ACL.Description">
-		<Value>Quản lý danh sách kiểm soát truy nhập.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ACL.Title">
-		<Value>D.sách kiểm soát truy nhập</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ACL.TitleDescription">
-		<Value>Quản lý danh sách kiểm soát truy nhập.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ConfigurationHome">
-		<Value>Trang chủ Cấu hình </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.EmailAccounts.Description">
-		<Value>Quản lý tài khoản email và các thiết lập</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.EmailAccounts.Title">
-		<Value>Tài khoản Email</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.EmailAccounts.TitleDescription">
-		<Value>Tài khoản Email</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.GlobalSettings.Description">
-		<Value>Sử dụng Thiết lập chính để quản lý cài đặt cửa hàng, Tối ưu hóa công cụ tìm kiếm / Hiển thị các thiết lập, cài đặt hình ảnh, cài đặt mail và các thiết lập bảo mật.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.GlobalSettings.Title">
-		<Value>Thiết lập chính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.GlobalSettings.TitleDescription">
-		<Value>Thiết lập chính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.intro">
-		<Value>Sử dụng các liên kết trên trang này để quản lý cài đặt cửa hàng khác nhau bao gồm màn hình hiển thị, an ninh /tối ưu hóa công cụ tìm kiếm, vận chuyển, thuế và các tùy chọn thanh toán.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.LocationSettingsHome.Description">
-		<Value>Quản lý cài đặt vị trí khác nhau cho cửa hàng của bạn như các quốc gia, ngôn ngữ và tiền tệ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.LocationSettingsHome.Title">
-		<Value>Cài đặt vị trí</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.LocationSettingsHome.TitleDescription">
-		<Value>Cài đặt vị trí.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.Measures.Description">
-		<Value>Xem tất cả các đơn vị đo lường trong gian hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.Measures.Title">
-		<Value>Đơn vị đo lường</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.Measures.TitleDescription">
-		<Value>Đơn vị đo lường</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.PaymentSettingsHome.Description">
-		<Value>Quản lý các loại thẻ tín dụng và phương thức thanh toán cho các cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.PaymentSettingsHome.Title">
-		<Value>Cài đặt thanh toán</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.PaymentSettingsHome.TitleDescription">
-		<Value>Cài đặt thanh toán.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.Settings.Description">
-		<Value>Xem tất cả các cài đặt cho cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.Settings.Title">
-		<Value>Tất cả các thiết lập</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.Settings.TitleDescription">
-		<Value>Tất cả các thiết lập.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ShippingSettingsHome.Description">
-		<Value>Quản lý các nhà cung cấp vận chuyển và phương pháp tính cho cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ShippingSettingsHome.Title">
-		<Value>Cài đặt Vận chuyển </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ShippingSettingsHome.TitleDescription">
-		<Value>Cài đặt Vận chuyển.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.SMSProviders.Description">
-		<Value>Quản lý cài đặt thông báo tin nhắn SMS và các nhà cung cấp.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.SMSProviders.Title">
-		<Value>Nhà cung cấp tin nhắn SMS</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.SMSProviders.TitleDescription">
-		<Value>Nhà cung cấp tin nhắn SMS</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.TaxSettingsHome.Description">
-		<Value>Quản lý thuế và các nhà cung cấp sản phẩm phân loại thuế cho các cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.TaxSettingsHome.Title">
-		<Value>Cài đặt thuế</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.TaxSettingsHome.TitleDescription">
-		<Value>Cài đặt thuế.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ThirdPartyIntegration.Description">
-		<Value>Quản lý tích hợp bên thứ ba (ví dụ như QuickBooks) tại đây</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ThirdPartyIntegration.Title">
-		<Value>tích hợp của bên thứ ba </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ConfigurationHome.ThirdPartyIntegration.TitleDescription">
-		<Value>Cấu hình tích hợp của bên thứ ba </Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement">
-		<Value>Quản lý nội dung</Value>
+		<Value>Quản lý nội dung.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog">
 		<Value>Blog</Value>
@@ -6885,14 +6858,20 @@
 	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.AvailableStores.Hint">
 		<Value>Trang blog được hiển thị trong gian hàng</Value>
 	</LocaleResource>
-	<LocaleResource Name="admin.contentmanagement.blog.blogposts.fields.body">
-		<Value>Số Tiên Vay</Value>
+	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Body">
+		<Value>Thân</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Body.Hint">
 		<Value>Nội dung của bài viết blog.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Body.Required">
 		<Value>Yêu cầu nội dung.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.BodyOverview">
+		<Value>Body overview</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.BodyOverview.Hint">
+		<Value>Brief overview of blog post. If specified, then it will be used instead of full body on the main blog page. HTML is supported.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog.BlogPosts.Fields.Comments">
 		<Value>Xem các nhận xét</Value>
@@ -6976,7 +6955,10 @@
 		<Value>Blog được cập nhập thành công.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog.Comments">
-		<Value>Bình luận blog</Value>
+		<Value>Blog comments</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Blog.Comments.DeleteSelected">
+		<Value>Delete selected</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.BlogPost">
 		<Value>Bài viết blog</Value>
@@ -6989,9 +6971,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.Customer">
 		<Value>Khách hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.Blog.Comments.Fields.IPAddress">
-		<Value>Địa chỉ IP</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Forums">
 		<Value>Diễn đàn</Value>
@@ -7071,12 +7050,6 @@
 	<LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.CreatedOn">
 		<Value>Nhập ghi chú cho đơn hàng này</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.Description">
-		<Value>Mô tả</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.Description.Hint">
-		<Value>Mô tả của nhóm diễn đàn. Đây là mô tả là khách hàng sẽ nhìn thấy.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Forums.ForumGroup.Fields.DisplayOrder">
 		<Value>Thứ tự hiển thị</Value>
 	</LocaleResource>
@@ -7097,66 +7070,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Forums.Manage">
 		<Value>Quản lý diễn đàn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates">
-		<Value>Tin nhắn mẫu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.BackToList">
-		<Value>Trở lại danh sách các mẫu tin nhắn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.EditTin nhắnTemplateDetails">
-		<Value>Chỉnh sửa chi tiết mẫu tin nhắn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.AllowedTokens">
-		<Value>Kích hoạt mã tin nhắn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.AllowedTokens.Hint">
-		<Value>Đây là danh sách các thẻ tin nhắn mà bạn có thể sử dụng trong email của mình.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.BccEmailAddresses">
-		<Value>BCC</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.BccEmailAddresses.Hint">
-		<Value>Các bản sao ẩn người nhận tin nhắn e-mail (BCC).</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.contentmanagement.messagestemplates.fields.body">
-		<Value>Số Tiền Vay</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Body.Hint">
-		<Value>Nội dung của tin nhắn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Body.Required">
-		<Value>Nội dung là bắt buộc.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.EmailAccount">
-		<Value>Tài khoản</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.EmailAccount.Hint">
-		<Value>Các tài khoản email đó sẽ được sử dụng để gửi tin nhắn mẫu này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.IsActive">
-		<Value>Được kích hoạt</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.IsActive.Hint">
-		<Value>Chỉ xem các mẫu tin nhắn kích hoạt.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Name.Hint">
-		<Value>Tên của mẫu (chỉ đọc).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Subject">
-		<Value>Chủ đề</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Subject.Hint">
-		<Value>Chủ đề của tin nhắn (emai). TIP - Bạn có thể bao gồm thẻ trong chủ đề của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Fields.Subject.Required">
-		<Value>Chủ đề là bắt buộc.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessagesTemplates.Updated">
-		<Value>Mẫu tin nhắn được cập nhật thành công.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.MessageTemplates">
 		<Value>Mẫu tin nhắn</Value>
@@ -7182,11 +7095,11 @@
 	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AttachedDownload">
 		<Value>Tệp đính kèm tĩnh</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AttachedDownload.Exists">
-		<Value>Có tập tin đính kèm</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AttachedDownload.Hint">
-		<Value>Tải lên một tập tin tĩnh bạn muốn đính kèm vào mỗi email gửi đi.</Value>
+		<Value>Upload a static file you want to attach to each sent email.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AttachedDownload.Exists">
+		<Value>Has attached file</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Fields.AvailableStores">
 		<Value>Gian hàng</Value>
@@ -7263,8 +7176,41 @@
 	<LocaleResource Name="Admin.ContentManagement.News.Comments">
 		<Value>Bình luận tin tức</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.SendTo">
+		<Value>Send email to</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.SendTo.Hint">
+		<Value>Send test email to ensure that everything is properly configured.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Success">
+		<Value>Email has been successfully queued.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens">
+		<Value>Tokens</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens.Description">
+		<Value>Please enter tokens you want to be replaced below</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Test.Tokens.Hint">
+		<Value>Enter tokens.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.TestDetails">
+		<Value>Send test email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.MessageTemplates.Updated">
+		<Value>The message template has been updated successfully.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.News">
+		<Value>News</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.News.Comments">
+		<Value>News comments</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.News.Comments.DeleteSelected">
+		<Value>Delete selected</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.CommentText">
-		<Value>Nội dung bình luận</Value>
+		<Value>Comment text</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.CommentTitle">
 		<Value>Tiêu đề bình luận</Value>
@@ -7274,9 +7220,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.Customer">
 		<Value>Người dùng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.IPAddress">
-		<Value>Địa chỉ IP</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.News.Comments.Fields.NewsItem">
 		<Value>Danh sách tin tức</Value>
@@ -7362,9 +7305,6 @@
 	<LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.MetaTitle.Hint">
 		<Value>Thay thế tiêu đề trang. Mặc định là tiêu đề trang</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.PictureId">
-		<Value>Ảnh</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.News.NewsItems.Fields.Published">
 		<Value>Được đăng</Value>
 	</LocaleResource>
@@ -7415,9 +7355,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.News.NewsItems.Updated">
 		<Value>Mục tin được cập nhật thành công.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ContentManagement.News.User">
-		<Value>Quản lý tài khoản</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Polls">
 		<Value>Thăm dò ý kiến</Value>
@@ -7519,7 +7456,10 @@
 		<Value>Cuộc thăm dò được cập nhật thành công.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics">
-		<Value>Chủ đề</Value>
+		<Value>Topics (pages)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Acl">
+		<Value>Access control list</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Added">
 		<Value>Chủ đề được thêm thành công.</Value>
@@ -7536,17 +7476,53 @@
 	<LocaleResource Name="Admin.ContentManagement.Topics.EditTopicDetails">
 		<Value>Chỉnh sửa chi tiết chủ đề</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.AccessibleWhenStoreClosed">
+		<Value>Accessible when store closed</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.AccessibleWhenStoreClosed.Hint">
+		<Value>Check to allow customer to view this topic details page when the store is closed.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.AclCustomerRoles">
+		<Value>Customer roles</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.AclCustomerRoles.Hint">
+		<Value>Select customer roles for which the topic will be shown.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.AvailableStores">
 		<Value>Gian hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.AvailableStores.Hint">
 		<Value>Chọn gian hàng được hiển thị chủ đề</Value>
 	</LocaleResource>
-	<LocaleResource Name="admin.contentmanagement.topics.fields.body">
-		<Value>Số Tiền Vay</Value>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.Body">
+		<Value>Thân</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.Body.Hint">
-		<Value>Nội dung của chủ đề.</Value>
+		<Value>The body of your topic.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.DisplayOrder">
+		<Value>Display order</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.DisplayOrder.Hint">
+		<Value>The topic display order. 1 represents the first item in the list. It's used with properties such as "Include in top menu" or "Include in footer".</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1">
+		<Value>Include in footer (column 1)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn1.Hint">
+		<Value>Check to include this topic in the footer (column 1). Ensure that your theme supports it.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn2">
+		<Value>Include in footer (column 2)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn2.Hint">
+		<Value>Check to include this topic in the footer (column 2). Ensure that your theme supports it.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn3">
+		<Value>Include in footer (column 3)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInFooterColumn3.Hint">
+		<Value>Check to include this topic in the footer (column 3). Ensure that your theme supports it.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.IncludeInSitemap">
 		<Value>Được khai báo vào sitemap</Value>
@@ -7609,7 +7585,13 @@
 		<Value>Tất cả các gian hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.Store.Hint">
-		<Value>Chọn gian hàng hiển thị chủ đề</Value>
+		<Value>Choose a store this topic is assigned to.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.SubjectToAcl">
+		<Value>Subject to ACL</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.SubjectToAcl.Hint">
+		<Value>Determines whether the topic is subject to ACL (access control list).</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.SystemName">
 		<Value>Tên chủ đề</Value>
@@ -7625,6 +7607,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.Title.Hint">
 		<Value>Tiêu đề của chủ đề.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.TopicTemplate">
+		<Value>Topic template</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.TopicTemplate.Hint">
+		<Value>Choose a topic template. This template defines how this topic will be displayed.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagement.Topics.Fields.URL">
 		<Value>Địa chỉ URL</Value>
