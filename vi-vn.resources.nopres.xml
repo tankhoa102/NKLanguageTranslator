@@ -1161,686 +1161,23 @@
 	<LocaleResource Name="Admin.Affiliates.Orders.PaymentStatus">
 		<Value>Trạng thái thanh toán</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Affiliates.Orders.PaymentStatus.Hint">
+		<Value>Tìm kiếm bằng trạng thái thanh toán ví dụ như "Đã thanh toán".</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Affiliates.Orders.ShippingStatus">
 		<Value>Trạng thái vận chuyển</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Affiliates.Title">
-		<Value>Quản lý chi chi nhánh</Value>
+	<LocaleResource Name="Admin.Affiliates.Orders.ShippingStatus.Hint">
+		<Value>Tìm kiếm bằng trạng thái giao hàng ví dụ "Chưa được giao"</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Affiliates.Orders.StartDate">
+		<Value>Ngày bắt đầu.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Affiliates.Orders.StartDate.Hint">
+		<Value>Tìm kiếm theo ngày bắt đầu.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Affiliates.Updated">
-		<Value>Đại lý được cập nhập thành công.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.AttributesHome">
-		<Value>Trang chủ Thuộc tính </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.CheckoutAttributes.Description">
-		<Value>Bạn có thể tạo thuộc tính thanh toán để cung cấp cho khách hàng của bạn với các tùy chọn nhiều hơn trong thanh toán (ví dụ: Tên món quà gói hoặc nhắn tin tùy chọn)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.CheckoutAttributes.Title">
-		<Value>Thuộc tính thanh toán</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.CheckoutAttributes.TitleDescription">
-		<Value>Quản lý thuộc tính thanh toán.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.intro">
-		<Value>Sử dụng các liên kết trên trang này để quản lý cả hai thuộc tính sản phẩm và các thuộc tính đặc điểm kỹ thuật. Bạn phải tạo ra các loại thuộc tính đầu tiên trước khi bạn có thể sử dụng chúng với các sản phẩm của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.ProductAttributes.Description">
-		<Value>Thuộc tính sản phẩm (ví dụ: "Kích thước" hay "màu") được sử dụng để tạo ra các biến thể sản phẩm liên phụ thuộc vào danh mục của bạn. Sau khi tạo một thuộc tính sản phẩm, bạn có thể tạo ra giá trị thuộc tính cụ thể cho một sản phẩm cá nhân (ví dụ như "đỏ", "xanh")</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.ProductAttributes.Title">
-		<Value>Thuộc tính Sản phẩm </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.ProductAttributes.TitleDescription">
-		<Value>Quản lý các thuộc tính của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.SpecificationAttributes.Description">
-		<Value>Ngoài các thuộc tính tiêu chuẩn, bạn có thể tạo ra đặc điểm kỹ thuật sản phẩm thuộc tính để cung cấp cho khách hàng của bạn với các chi tiết kỹ thuật về sản phẩm của bạn (ví dụ như "vải"). Khi đã xác định, bạn có thể tạo ra các giá trị đặc điểm kỹ thuật cho một sản phẩm cá nhân (ví dụ như "bông"). Các khách hàng có thể xem các đặc điểm kỹ thuật từ các tab đặc điểm kỹ thuật trên trang chi tiết sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.SpecificationAttributes.Title">
-		<Value>Thuộc tính đặc điểm kỹ thuật của sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.AttributesHome.SpecificationAttributes.TitleDescription">
-		<Value>Quản lý các thuộc tính đặc điểm kỹ thuật của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.banquyen">
-		<Value>bản quyền:công ty cổ phần đầu tư xây dựng và công nghệ việt nam</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BestSellersStat.BestSellers">
-		<Value>Bán Chạy Nhất</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BestSellersStat.Product">
-		<Value>Sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BestSellersStat.TotalAmount">
-		<Value>Tổng số tiền (chưa có thuế)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BestSellersStat.TotalCount">
-		<Value>Tổng số</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.AddBannedIP.Text">
-		<Value>Thêm cấm IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.AddBannedIP.Tooltip">
-		<Value>Thêm IP vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.AddBannedNetwork.Text">
-		<Value>Thêm mạng bị cấm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.AddBannedNetwork.Tooltip">
-		<Value>Thêm mạng vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpAddress.Comment">
-		<Value>Bình luận</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpAddress.CreatedOn">
-		<Value>Tạo lúc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpAddress.IPAddress">
-		<Value>Địa chỉ IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpAddress.IPAddress.Edit">
-		<Value>Sửa địa chỉ IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpAddress.Title">
-		<Value>Địa chỉ IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpAddress.UpdatedOn">
-		<Value>Cập nhật trên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.Comment">
-		<Value>Bình luận</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.CreatedOn">
-		<Value>Tạo lúc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.Exceptions">
-		<Value>IP ngoại lệ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.IPRange">
-		<Value>Dải IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.IPRange.Edit">
-		<Value>Sửa mạng IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.Title">
-		<Value>Mạng IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.IpNetwork.UpdatedOn">
-		<Value>Cập nhật trên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blacklist.Title">
-		<Value>Quản lý danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPAdd.BackToBlacklist">
-		<Value>trở lại danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPAdd.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPAdd.SaveButton.Tooltip">
-		<Value>Lưu IP vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPAdd.Title">
-		<Value>Thêm IP vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.BackToBlacklist">
-		<Value>trở lại danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.DeleteButton.Tooltip">
-		<Value>Xóa địa chỉ IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.SaveButton.Tooltip">
-		<Value>Lưu IP vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPDetails.Title">
-		<Value>Sửa IP từ danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.BannedIP">
-		<Value>Cấm địa chỉ IP:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.BannedIP.Tooltip">
-		<Value>Cấm địa chỉ IP hoặc mạng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.Comment">
-		<Value>Bình luận:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.Comment.Tooltip">
-		<Value>Lý do tại sao các địa chỉ IP hoặc mạng đã bị cấm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.CreatedOn">
-		<Value>Tạo lúc:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.CreatedOn.Tooltip">
-		<Value>Ngày và thời gian khi IP bị cấm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.Format">
-		<Value>định dạng:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.UpdatedOn">
-		<Value>Cập nhật trên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistIPInfo.UpdatedOn.Tooltip">
-		<Value>Ngày và thời gian khi IP được cập nhật lần cuối</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkAdd.BackToBlacklist">
-		<Value>trở lại danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkAdd.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkAdd.SaveButton.Tooltip">
-		<Value>Lưu IP vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkAdd.Title">
-		<Value>Thêm mạng vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.BackToBlacklist">
-		<Value>trở lại danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.DeleteButton.Tooltip">
-		<Value>Xóa địa chỉ IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.SaveButton.Tooltip">
-		<Value>Lưu IP vào danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkDetails.Title">
-		<Value>Sửa mạng từ danh sách đen</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.BannedIP">
-		<Value>Cấm IP mạng:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.BannedIP.Tooltip">
-		<Value>Cấm địa chỉ IP hoặc mạng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.Comment">
-		<Value>Bình luận:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.Comment.Tooltip">
-		<Value>Lý do tại sao các địa chỉ IP hoặc mạng đã bị cấm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.CreatedOn">
-		<Value>Tạo lúc:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.CreatedOn.Tooltip">
-		<Value>Ngày và thời gian khi mạng đã bị cấm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.Exception">
-		<Value>IP Ngoại lệ:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.Exception.Tooltip">
-		<Value>Trừ IP trong mạng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.Format">
-		<Value>định dạng:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.OrLeaveEmpty">
-		<Value>hoặc để trống</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.UpdatedOn">
-		<Value>Cập nhật trên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlacklistNetworkInfo.UpdatedOn.Tooltip">
-		<Value>Ngày và thời gian khi mạng đã được cập nhật lần cuối</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.AddNewButton.Text">
-		<Value>Thêm mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.AddNewButton.Tooltip">
-		<Value>Thêm một mục blog mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.BlogPostTitle">
-		<Value>Tiêu đề bài viết Blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.CreatedOn">
-		<Value>Tạo lúc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.Edit">
-		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.Edit.Tooltip">
-		<Value>Chỉnh sửa blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.Language">
-		<Value>Ngôn ngữ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.Title">
-		<Value>Quản lý Blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.ViewComments">
-		<Value>Xem bình luận</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.ViewComments.Link">
-		<Value>{0} ý kiến</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Blog.ViewComments.Tooltip">
-		<Value>Xem bình luận Blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.BackToComments">
-		<Value>trở lại danh sách blog </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.BlogTitle">
-		<Value>Mục blog:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.BlogTitle.Tooltip">
-		<Value>Các mục blog để lấy bình luận này. Nhấp vào liên kết để xem / chỉnh sửa các mục blog.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.Comment">
-		<Value>Bình luận:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.Comment.Tooltip">
-		<Value>Các lời bình luận của khách hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.CreatedOn">
-		<Value>Tạo lúc:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.CreatedOn.Tooltip">
-		<Value>Ngày / thời gian bình luận đã được thực hiện.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.Customer">
-		<Value>Khách hàng:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.Customer.Guest">
-		<Value>Khách</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.Customer.Tooltip">
-		<Value>Các khách hàng đưa ra bình luận.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.DeleteButton.Tooltip">
-		<Value>Xoá mục mục bình luận blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.IPAddress">
-		<Value>Địa chỉ IP:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.IPAddress.Tooltip">
-		<Value>Các địa chỉ IP.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.SaveButton.Tooltip">
-		<Value>Lưu bình luận vào mục blog.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogCommentDetails.Title">
-		<Value>Chỉnh sửa mục bình luận blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.Customer.Guest">
-		<Value>Khách</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.DeleteButton.Tooltip">
-		<Value>Xoá  mục bình luận blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.EditButton.Text">
-		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.EditButton.Tooltip">
-		<Value>Chỉnh sửa mục bình luận blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.IPAddress">
-		<Value>(Địa chỉ IP: {0})</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogComments.Title">
-		<Value>Quản lý Bình Luận Blog </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.Blog.Description">
-		<Value>Tạo và quản lý blog hiện có với một dễ sử dụng kiểm soát biên tập.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.Blog.Title">
-		<Value>Quản lý blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.Blog.TitleDescription">
-		<Value>Quản lý blog.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogComments.Description">
-		<Value>Quản lý các ý kiến khách hàng về các mục blog của bạn. Bạn phải chấp nhận tất cả các ý kiến trước khi chúng được nhìn thấy trong cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogComments.Title">
-		<Value>Quản lý các ý kiến blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogComments.TitleDescription">
-		<Value>Quản lý các ý kiến blog.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogHome">
-		<Value>Trang chủ Blog </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogSettings.Description">
-		<Value>Sử dụng trang này để quản lý cài đặt blog nói chung.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogSettings.Title">
-		<Value>Quản lý cài đặt blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.BlogSettings.TitleDescription">
-		<Value>Quản lý cài đặt blog.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogHome.intro">
-		<Value>Sử dụng các liên kết trên trang này để quản lý blog cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostAdd.BackToBlog">
-		<Value>trở lại danh sách blog </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostAdd.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostAdd.SaveButton.Tooltip">
-		<Value>Lưu blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostAdd.Title">
-		<Value>Thêm một bài trên blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.BackToBlog">
-		<Value>trở lại danh sách blog </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.DeleteButton.Tooltip">
-		<Value>Xóa mục blog </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.SaveButton.Tooltip">
-		<Value>Lưu blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostDetails.Title">
-		<Value>Chỉnh sửa blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.AllowComments">
-		<Value>Cho phép bình luận:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.AllowComments.Tooltip">
-		<Value>Khi kiểm tra, khách hàng có thể để lại bình luận về mục blog của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Body">
-		<Value>Nội dung mục blog:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Body.Tooltip">
-		<Value>Nội dung mục blog này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.CreatedOn">
-		<Value>Tạo lúc:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.CreatedOn.Tooltip">
-		<Value>Ngày / thời gian mục blog được tạo ra.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Language">
-		<Value>Ngôn ngữ:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Language.Tooltip">
-		<Value>Ngôn ngữ của blog này. Một khách hàng sẽ chỉ nhìn thấy các mục blog cho ngôn ngữ đã chọn của họ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Name">
-		<Value>Tiêu đề  mục Blog:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Name.ErrorMessage">
-		<Value>Tiêu đề được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Name.Tooltip">
-		<Value>Tiêu đề  mục Blog này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Tags">
-		<Value>Thẻ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.Tags.Tooltip">
-		<Value>Thẻ là những từ khoá blog này cũng có thể được xác định. Nhập danh sách bằng dấu phẩy của các thẻ để được liên kết với bài đăng blog.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogPostInfo.ViewComments">
-		<Value>Xem bình luận ({0})</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.AllowGuestComments">
-		<Value>Cho phép người dùng không đăng ký để lại bình luận:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.AllowGuestComments.Tooltip">
-		<Value>Kiểm tra để cho phép người dùng không đăng ký để lại bình luận.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.EnableBlog">
-		<Value>Blog được kích hoạt:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.EnableBlog.Tooltip">
-		<Value>Kiểm tra để kích hoạt blog trong cửa hàng của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.NotifyNewComments">
-		<Value>Thông báo về blog bình luận mới:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.NotifyNewComments.Tooltip">
-		<Value>Kiểm tra để thông báo cho chủ cửa hàng về bình luận blog mới.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.PostsPageSize">
-		<Value>Trang kích thước bài viết:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.PostsPageSize.RangeErrorMessage">
-		<Value>Các kích thước trang phải từ 0-999999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.PostsPageSize.RequiredErrorMessage">
-		<Value>Kích thước trang cho bài viết được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.PostsPageSize.Tooltip">
-		<Value>Thiết lập kích thước trang cho bài viết</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.SaveButton.Tooltip">
-		<Value>Lưu thay đổi đến blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BlogSettings.Title">
-		<Value>Cài đặt Blog</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.Category">
-		<Value>Danh mục:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.Category.Tooltip">
-		<Value>Tìm kiếm bằng một danh mục cụ thể.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.Description">
-		<Value>Lưu ý: bạn đang chỉnh sửa biến sản phẩm(không phải sản phẩm)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.Manufacturer">
-		<Value>Nhà cung cấp:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.Manufacturer.Tooltip">
-		<Value>Tìm kiếm theo một nhà cung cấp cụ thể.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.NameColumn">
-		<Value>Toàn tên biến thể sản phẩm </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.NoProductsFound">
-		<Value>Không có sản phẩm biến thể được tìm thấy</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.OldPriceColumn">
-		<Value>Giá cũ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.OldPriceColumn.RangeErrorMessage">
-		<Value>Giá cũ phải từ 0 - 100000000</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.OldPriceColumn.RequiredErrorMessage">
-		<Value>Giá cũ được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.PriceColumn">
-		<Value>Giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.PriceColumn.RangeErrorMessage">
-		<Value>Giá phải từ 0 đến 100000000</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.PriceColumn.RequiredErrorMessage">
-		<Value>Giá được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.ProductName">
-		<Value>Tên sản phẩm:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.ProductName.Tooltip">
-		<Value>Tên 1 sản phẩm:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.PublishedColumn">
-		<Value>Được đăng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.SearchButton.Text">
-		<Value>Tìm kiếm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.SearchButton.Tooltip">
-		<Value>Tìm kiếm biến thể sản phẩm dựa trên các tiêu chí dưới đây</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.SuccessfullyUpdated">
-		<Value>Tất cả các biến thể về sản phẩm được cập nhật thành công.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.BulkEditProducts.Title">
-		<Value>Sửa hàng loạt sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.BackToCampaign">
-		<Value>trở lại danh sách chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.DeleteButton.Tooltip">
-		<Value>Xóa chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.SaveButton.Tooltip">
-		<Value>Lưu chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignDetails.Title">
-		<Value>Chỉnh sửa chi tiết chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.AllowedTokens">
-		<Value>Cho phép nhắn tin:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.AllowedTokens.Tooltip">
-		<Value>Đây là danh sách của thẻ thư bạn có thể sử dụng trong chiến dịch email của bạn. Bạn cũng có thể thêm thẻ nhắn tin bằng cách sử dụng các 'tin nhắn "danh sách thả xuống trong trình soạn thảo dưới đây.</Value>
-	</LocaleResource>
-	<LocaleResource Name="admin.campaigninfo.body">
-		<Value>Số Tiền Vay</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.Body.Tooltip">
-		<Value>Nội dung của chiến dịch email của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.CampaignName">
-		<Value>Tên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.CampaignName.ErrorMessage">
-		<Value>Tên chiến dịch được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.CampaignName.Tooltip">
-		<Value>Tên của chiến dịch này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.CreatedOn">
-		<Value>Tạo lúc:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.CreatedOn.Tooltip">
-		<Value>Ngày / thời gian chiến dịch được tạo ra.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.EmailSent">
-		<Value>Email đã được gửi thành công.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.EmailSentToCustomers">
-		<Value>Email đã được gửi thành công cho {0} khách hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.SendMassEmailButton.Text">
-		<Value>Gửi  kiểm tra Email</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.SendMassEmailButton.Tooltip">
-		<Value>Gửi  kiểm tra Email</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.SendTestEmailButton.Text">
-		<Value>Gửi  kiểm tra Email</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.SendTestEmailButton.Tooltip">
-		<Value>Gửi  kiểm tra Email</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.SendTestEmailTo">
-		<Value>Gửi bài kiểm tra email tới:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.SendTestEmailTo.Tooltip">
-		<Value>Địa chỉ email mà bạn muốn gửi email thử nghiệm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.Subject">
-		<Value>Tiêu đề:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.Subject.ErrorMessage">
-		<Value>Tiêu đề được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.Subject.Tooltip">
-		<Value>Các tiêu đề của chiến dịch email của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CampaignInfo.Title">
-		<Value>Hãy chắc chắn rằng bạn đã kiểm tra các chiến dịch trước khi gửi đi ra cho khách hàng nhiều. Lưu chiến dịch đầu tiên của bạn bằng cách nhấn vào nút "Lưu".</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.AddButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.AddButton.Tooltip">
-		<Value>Lưu chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.AddNewButton.Text">
-		<Value>Thêm mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.AddNewButton.Tooltip">
-		<Value>Thêm một chiến dịch bán hàng mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.CampaignAdd.BackToCampaign">
-		<Value>trở lại danh sách chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.CampaignAdd.Title">
-		<Value>Thêm một chiến dịch mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.CreatedOn">
-		<Value>Tạo lúc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.Edit">
-		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.Edit.Tooltip">
-		<Value>Chỉnh sửa chiến dịch</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Campaigns.Title">
-		<Value>Quản lý chiến dịch</Value>
+		<Value>Chi nhánh được cập nhật thành công.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog">
 		<Value>Quản lý sản phẩm</Value>
@@ -1963,7 +1300,7 @@
 		<Value>Thông tin thuộc tính thanh toán</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Stores">
-		<Value>Stores</Value>
+		<Value>Các cửa hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Attributes.CheckoutAttributes.Updated">
 		<Value>Thuộc tính thanh toán được cập nhập thành công.</Value>
@@ -2052,8 +1389,77 @@
 	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.Fields.Name.Required">
 		<Value>Xin cung cấp tên.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.Info">
+		<Value>Thông tin</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues">
+		<Value>Những giá trị được định nghĩa trước</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.AddNew">
+		<Value>Thêm một giá trị mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.EditValueDetails">
+		<Value>Chỉnh sửa giá trị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Cost">
+		<Value>Chi phí</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Cost.Hint">
+		<Value>Chi phí là chi phí của tất cả các thành phần khác tạo ra giá trị của sản phẩm. Đây có thể là giá mua nếu như các thành phần được mua từ nhà cung cấp bên ngoài, cũng có thể tổng hợp chi phí nguyên liệu và quá trình sản xuất nếu như thành phần có sẵn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.DisplayOrder">
+		<Value>Hiển thị thứ tự</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.DisplayOrder.Hint">
+		<Value>Thứ tự hiển thị theo giá trị sản phẩm. 1 đại diện cho giá trị đầu tiên trong danh sách các sản phẩm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.IsPreSelected">
+		<Value>Có thể chọn trước</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.IsPreSelected.Hint">
+		<Value>Xác định xem liệu giá trị thuộc tính này cho phép người dùng lựa chọn trước.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Name.Hint">
+		<Value>Tên thuộc tính ví dụ 'Xanh' cho giá trị thuộc tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.Name.Required">
+		<Value>Vui lòng cung cấp tên.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment">
+		<Value>Điều chỉnh giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.PriceAdjustment.Hint">
+		<Value>Giá cả điều chỉnh được áp dụng khi chọn thuộc tính ví dụ '10' để thêm 10 dollars.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment">
+		<Value>Điều chỉnh trọng lượng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Fields.WeightAdjustment.Hint">
+		<Value>Trọng lượng điều chỉnh được áp dụng khi chọn giá trị thuộc tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.Hint">
+		<Value>Những giá trị ban đầu hữu ích cho chủ cửa hàng khi tạo các sản phẩm mới. Để rồi khi bạn thêm một thuộc tính vào sản phẩm, bạn không phải tạo các giá trị nữa.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.PredefinedValues.SaveBeforeEdit">
+		<Value>Bạn cần lưu lại thuộc tính sản phẩm trước khi bạn có thể thêm các giá trị cho trang này.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.Updated">
 		<Value>Thuộc tính sản phẩm được cập nhập thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.UsedByProducts">
+		<Value>Được dùng bới các sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.UsedByProducts.Hint">
+		<Value>Ở đây bạn có thể thấy danh sách các sản phẩm sử dụng thuộc tính này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.UsedByProducts.Product">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Attributes.ProductAttributes.UsedByProducts.Published">
+		<Value>Công khai</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Attributes.SpecificationAttributes">
 		<Value>Thông số kỹ thuật</Value>
@@ -2238,9 +1644,6 @@
 	<LocaleResource Name="Admin.Catalog.Categories.Fields.DisplayOrder.Hint">
 		<Value>Chọn thứ tự hiển thị của sản phẩm trong danh mục. 1 biểu diễn sản phẩm trên cùng của danh sách.</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Categories.Fields.FromFrice">
-		<Value>Giá từ</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Categories.Fields.IncludeInTopMenu">
 		<Value>Hiển thị trên menu chính</Value>
 	</LocaleResource>
@@ -2379,9 +1782,6 @@
 	<LocaleResource Name="Admin.Catalog.LowStockReport">
 		<Value>Sản phẩm còn ít hàng</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.LowStockReport.Manage">
-		<Value>Sản phẩm còn ít hàng</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Manufacturers">
 		<Value>Nhà sản xuất</Value>
 	</LocaleResource>
@@ -2400,6 +1800,12 @@
 	<LocaleResource Name="Admin.Catalog.Manufacturers.Deleted">
 		<Value>Nhà sản xuất được xóa thành công.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Manufacturers.Discounts">
+		<Value>Giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Manufacturers.Discounts.NoDiscounts">
+		<Value>Hiện tại không có giảm giá. Tạo ít nhất một sự giảm giá trước khi sắp đặt.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Manufacturers.EditManufacturerDetails">
 		<Value>Sửa thông tin nhà sản xuất</Value>
 	</LocaleResource>
@@ -2416,7 +1822,7 @@
 		<Value>Có hay không cho phép khách hàng lựa chọn kích cỡ trang từ danh sách tùy chọn trước.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AvailableStores">
-		<Value>Stores</Value>
+		<Value>Các của hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Manufacturers.Fields.AvailableStores.Hint">
 		<Value>Hãng sản xuất được hiển thị trong gian hàng</Value>
@@ -2565,6 +1971,9 @@
 	<LocaleResource Name="Admin.Catalog.ProductReviews.Deleted">
 		<Value>Mục đánh giá sản phẩm được xóa thành công.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.ProductReviews.DeleteSelected">
+		<Value>Xóa các mục đã chọn</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.ProductReviews.DisapproveSelected">
 		<Value>Không xác nhận các lựa chọn</Value>
 	</LocaleResource>
@@ -2582,12 +1991,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.ProductReviews.Fields.Customer.Hint">
 		<Value>Khách hàng tạo mục đánh giá.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.ProductReviews.Fields.IPAddress">
-		<Value>Địa chỉ IP</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.ProductReviews.Fields.IPAddress.Hint">
-		<Value>Địa chỉ IP.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.ProductReviews.Fields.IsApproved">
 		<Value>Được xác nhận</Value>
@@ -2829,6 +2232,36 @@
 	<LocaleResource Name="Admin.Catalog.Products.Fields.BackorderMode.Hint">
 		<Value>Chọn 1 cách thức trả lại đơn hàng</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceEnabled">
+		<Value>Bật giá trị cơ bản</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceEnabled.Hint">
+		<Value>Kiểm tra để hiển thị giá trị cơ sở của sản phẩm. Giá trị cơ sở này được yêu cầu theo như luật German (PAngV). Nếu bạn bán 500ml bia với 1,50 Euro thì bạn phải hiển thị 3 Euro cho mỗi lít.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceAmount">
+		<Value>Số lượng trong sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceAmount.Hint">
+		<Value>Nhập vào một số lượng sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceUnit">
+		<Value>Đơn vị của sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceUnit.Hint">
+		<Value>Nhập vào đơn vị của sản phẩm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceBaseAmount">
+		<Value>Số lượng tham khảo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceBaseAmount.Hint">
+		<Value>Nhập vào số lượng tham khảo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceBaseUnit">
+		<Value>Đơn vị tham khảo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.BasepriceBaseUnit.Hint">
+		<Value>Nhập vào số lượng tham khảo.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.CallForPrice">
 		<Value>Gọi hỏi giá</Value>
 	</LocaleResource>
@@ -3024,6 +2457,24 @@
 	<LocaleResource Name="Admin.Catalog.Products.Fields.ManufacturerPartNumber.Hint">
 		<Value>Mã nhận dạng nhà sản xuất (MPN) của sản phẩm</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNew">
+		<Value>Đánh dấu là mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNew.Hint">
+		<Value>Kiểm tra để đánh dấu sản phẩm mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNewStartDateTimeUtc">
+		<Value>Ngày bắt đầu việc sản phẩm được đánh dấu là mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNewStartDateTimeUtc.Hint">
+		<Value>Đặt ngày bắt đầu việc sản phẩm được đánh dấu là sản phẩm mới với múi giờ (UTC).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNewEndDateTimeUtc">
+		<Value>Ngày kết thúc việc sản phẩm được đánh dấu là mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.MarkAsNewEndDateTimeUtc.Hint">
+		<Value>Đặt ngày kết thúc việc sản phẩm được đánh dấu là sản phẩm mới với múi giờ (UTC).</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.MaximumCustomerEnteredPrice">
 		<Value>Giá cao nhất</Value>
 	</LocaleResource>
@@ -3066,6 +2517,12 @@
 	<LocaleResource Name="Admin.Catalog.Products.Fields.MinStockQuantity.Hint">
 		<Value>Nếu bạn đã kích hoạt 'Quản lý Cổ phần' bạn có thể thực hiện một số hành động khác nhau khi số lượng cổ phiếu hiện nay giảm xuống dưới (đạt) Số lượng cổ phiếu tối thiểu của bạn.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.UseMultipleWarehouses">
+		<Value>Sử dụng nhiều nhà kho</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.UseMultipleWarehouses.Hint">
+		<Value>Kiểm tra nếu muốn hỗ trợ giao hàng và quản lý tích trữ hàng hóa từ nhiều nhà kho.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.Name">
 		<Value>Tên sản phẩm</Value>
 	</LocaleResource>
@@ -3098,6 +2555,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.OrderMinimumQuantity.Hint">
 		<Value>Thiết lập số lượng sản  phẩm tối thiểu mà giỏ hàng chứa. Ví dụ, thiết lập bằng 2 để khách hàng mua 2 sản phẩm này hoặc hơn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.OverriddenGiftCardAmount">
+		<Value>Đặt lại số lượng thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Fields.OverriddenGiftCardAmount.Hint">
+		<Value>Nhập số lượng thẻ quà tặng có thể sử sụng sau khi mua hàng. Nếu không được cụ thể thì giá sản phẩm sẽ được sử dụng.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.PictureThumbnailUrl">
 		<Value>Ảnh</Value>
@@ -3276,12 +2739,6 @@
 	<LocaleResource Name="Admin.Catalog.Products.Fields.UpdatedOn.Hint">
 		<Value>Thời điểm sản phẩm được cập nhật</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Fields.UseMultipleWarehouses">
-		<Value>Sử dụng nhiều kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Fields.UseMultipleWarehouses.Hint">
-		<Value>Kiểm tra nếu bạn muốn hỗ trợ vận chuyển và quản lý hàng tồn kho từ nhiều kho.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.UserAgreementText">
 		<Value>Điều khoản sử dụng</Value>
 	</LocaleResource>
@@ -3323,9 +2780,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Fields.Width.Hint">
 		<Value>Chiều rộng của sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.FirstVariant">
-		<Value>Thông tin mặc định của biến thể sản phẩm</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Imported">
 		<Value>Sản phẩm được nhập thành công.</Value>
@@ -3374,6 +2828,21 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.List.SearchProductType.Hint">
 		<Value>Tìm kiếm theo loại sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.List.SearchPublished">
+		<Value>Công khai</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.Hint">
+		<Value>Tìm kiếm theo những sản phẩm công khai.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.All">
+		<Value>Tất cả</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.PublishedOnly">
+		<Value>Chỉ những sản phẩm công khai</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.List.SearchPublished.UnpublishedOnly">
+		<Value>Chỉ những sản phẩm không công khai</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.List.SearchStore">
 		<Value>Gian hàng</Value>
@@ -3428,6 +2897,18 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.DisplayOrder.Hint">
 		<Value>Thứ tự hiển thị của ảnh. 1 biểu diễn trên cùng của trang.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideAltAttribute">
+		<Value>Thay thế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideAltAttribute.Hint">
+		<Value>Override "alt" attribute for "img" HTML element. If empty, then a default rule will be used (e.g. product name).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideTitleAttribute">
+		<Value>Tiêu đề</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.OverrideTitleAttribute.Hint">
+		<Value>Override "title" attribute for "img" HTML element. If empty, then a default rule will be used (e.g. product name).</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.Pictures.Fields.Picture">
 		<Value>Ảnh</Value>
@@ -3506,6 +2987,27 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes">
 		<Value>Thuộc tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition">
+		<Value>Điều kiện</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.Attributes">
+		<Value>Thuộc tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.Attributes.Hint">
+		<Value>Chọn một thuộc tính.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.Description">
+		<Value>Conditional attributes appear if a previous attribute is selected, such as having an option for personalizing clothing with a name and only providing the text input box if the "Personalize" radio button is checked</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.EnableCondition">
+		<Value>Enable condition</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.EnableCondition.Hint">
+		<Value>Check to specify a condition (depending on other attribute) when this attribute should be enabled (visible).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Condition.ViewLink">
+		<Value>View/Edit condition</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Fields.Attribute">
 		<Value>Thuộc tính</Value>
@@ -3651,6 +3153,9 @@
 	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
 		<Value>Việc điều chỉnh trọng lượng áp dụng khi lựa chọn giá trị thuộc tính này</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.TotalValues">
+		<Value>Tổng cộng: </Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.Attributes.Values.ViewLink">
 		<Value>Xem / Chỉnh sửa các giá trị (Tổng số: {0})</Value>
 	</LocaleResource>
@@ -3658,217 +3163,7 @@
 		<Value>Không có sản phẩm thuộc tính sẵn có. Tạo ít nhất một thuộc tính sản phẩm trước khi lập bản đồ.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.ProductAttributes.SaveBeforeEdit">
-		<Value>Bạn cần phải lưu các sản phẩm trước khi bạn có thể thêm các thuộc tính cho trang này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes">
-		<Value>Thuộc tính sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations">
-		<Value>Tổ hợp thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.AddNew">
-		<Value>Tạo tổ hợp thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.AddTitle">
-		<Value>Chọn tổ hợp mới và nhập chi tiết phía dưới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Description">
-		<Value>Tổ hợp thuộc tính hữu ích khi tính năng 'Phương thức quản lý hàng tồn kho' được thiết lập 'Theo dõi hàng tồn kho bởi thuộc tính sản phẩm'</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Description2">
-		<Value>Also note that some attribute control types that support custom user input (e.g. file upload, textboxes, date picker) are useless with attribute combinations</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders">
-		<Value>Cho phép hết hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders.Hint">
-		<Value>Cho phép đặt hàng khi hết hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.Attributes">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.GTIN">
-		<Value>Mã số thương mại toàn cầu (GTIN)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.GTIN.Hint">
-		<Value>Nhập mã số thương mại toàn cầu. Mã nhận diện bao gồm UPC(Bắc Mỹ), EAN(EU), JAN(Japan) và ISBN(cho sách).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.ManufacturerPartNumber">
-		<Value>Mã nhận dạng nhà sản xuất (MPN)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.ManufacturerPartNumber.Hint">
-		<Value>Mã nhận dạng nhà sản xuất (MPN) của sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.OverriddenPrice">
-		<Value>Overridden price</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.OverriddenPrice.Hint">
-		<Value>Override price for this attribute combination. This way a store owner can override the default product price when this attribute combination is added to the cart. For example, you can give a discount this way. Leave empty to ignore field. All other applied discounts will be ignored when this field is specified.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.Sku">
-		<Value>Mã tồn kho (SKU)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.Sku.Hint">
-		<Value>Mã tồn kho (SKU). Mã định danh duy nhất theo quy định của bạn, có thể được sử dụng để theo dõi sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.StockQuantity">
-		<Value>Số lượng hàng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.Fields.StockQuantity.Hint">
-		<Value>Số lượng hàng trong kho của tổ hợp thuộc tính này</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.AttributeCombinations.GenerateAll">
-		<Value>Tạo ra tất cả các tổ hợp có thể</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.Attribute">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.AttributeControlType">
-		<Value>Kiểu control</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.IsRequired">
-		<Value>Là bắt buộc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Fields.TextPrompt">
-		<Value>Ghi chú</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules">
-		<Value>Validation rules</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileAllowedExtensions">
-		<Value>Allowed file extensions</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileAllowedExtensions.Hint">
-		<Value>Specify a comma-separated list of allowed file extensions. Leave empty to allow any file extension.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileMaximumSize">
-		<Value>Maximum file size (KB)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.FileMaximumSize.Hint">
-		<Value>Specify maximum file size in kilobytes. Leave empty to skip this validation.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MaxLength">
-		<Value>Maximum length</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MaxLength.Hint">
-		<Value>Specify maximum length. Leave empty to skip this validation.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MinLength">
-		<Value>Minimum length</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.MinLength.Hint">
-		<Value>Specify minimum length. Leave empty to skip this validation.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.ValidationRules.ViewLink">
-		<Value>View/Edit rules</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values">
-		<Value>Giá trị thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.AddNew">
-		<Value>Giá trị thuộc tính mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.BackToProduct">
-		<Value>Chỉnh sửa sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.EditAttributeDetails">
-		<Value>Thêm/sửa giá trị thuộc tính {0} của sản phẩm {1}</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.EditValueDetails">
-		<Value>Chính sửa giá trị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AssociatedProduct">
-		<Value>Liên kết sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AssociatedProduct.AddNew">
-		<Value>Liên kết sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AssociatedProduct.Hint">
-		<Value>Liên kết sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AttributeValueType">
-		<Value>Loại giá trị thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.AttributeValueType.Hint">
-		<Value>Chọn loại giá trị cho thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.ColorSquaresRgb">
-		<Value>Màu RGB</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.ColorSquaresRgb.Hint">
-		<Value>Chọn màu sắc được sử dụng với các hình vuông kiểm soát thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Cost">
-		<Value>Cost</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Cost.Hint">
-		<Value>The attribute value cost is the cost of all the different components which make up this value. This may be either the purchase price if the components are bought from outside suppliers, or the combined cost of materials and manufacturing processes if the component is made in-house.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.DisplayOrder.Hint">
-		<Value>Thứ tự hiển thị của giá trị thuộc tính. 1 biểu thị cho giá trị đầu tiên trong danh sách các thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.IsPreSelected">
-		<Value>Được chọn trước</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.IsPreSelected.Hint">
-		<Value>Xác định giá trị thuộc tính được chọn trước</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Name.Hint">
-		<Value>Tên của giá trị thuộc tính. Ví dụ: 'Blue' cho thuộc tính màu sắc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Name.Required">
-		<Value>Cung cấp tên giá trị thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Picture">
-		<Value>Ảnh</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Picture.Hint">
-		<Value>Chọn 1 bức ảnh liên kết với giá trị thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Picture.NoPicture">
-		<Value>Không có ảnh</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.PriceAdjustment">
-		<Value>Điều chỉnh giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.PriceAdjustment.Hint">
-		<Value>Việc điều chỉnh giá được áp dụng khi chọn giá trị thuộc tính. Ví dụ. '10000' để nhập 10000 VND</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Quantity">
-		<Value>Product quantity</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Quantity.GreaterThanOrEqualTo1">
-		<Value>Quantity should be greater than or equal to 1</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.Quantity.Hint">
-		<Value>Specify quantity of the associated product which will be added. Minimum allowed value is 1.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.WeightAdjustment">
-		<Value>Điều chỉnh khối lượng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
-		<Value>Việc điều chỉnh khối lượng được áp dụng khi chọn giá trị thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.Attributes.Values.ViewLink">
-		<Value>Xem/chỉnh sửa giá trị (Tổng số: {0})</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.NoAttributesAvailable">
-		<Value>Không có thuộc tính sản phẩm nào. Tạo ít nhất một thuộc tính trước khi liên kết</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.ProductVariantAttributes.SaveBeforeEdit">
-		<Value>Bạn cần lưu sản phẩm trước khi có thể tạo thuộc tính  sản phẩm.</Value>
+                <Value>Bạn cần lưu lại sản phẩm trước khi thêm thuộc tính ở trang này.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.ProductWarehouseInventory">
 		<Value>Các kho hàng</Value>
@@ -3976,7 +3271,7 @@
 		<Value>Giá trị thuộc tính thông số kỹ thuật</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.Fields.Value">
-		<Value>Value</Value>
+		<Value>Giá trị</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.Products.SpecificationAttributes.NoAttributes">
 		<Value>Không có thuộc tính thông số kỹ thuật nào.</Value>
@@ -4014,600 +3309,6 @@
 	<LocaleResource Name="Admin.Catalog.Products.Updated">
 		<Value>Sản phẩm được cập nhập thành công.</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants">
-		<Value>Biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Added">
-		<Value>Dạng sản phẩm mới được thêm vào thành công.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.AddNew">
-		<Value>Thêm biến thể sản phẩm mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.AddNewForProduct">
-		<Value>Thêm biến thể sản phẩm mới: {0}</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.BackToProduct">
-		<Value>Trở về chi tiết sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Copy">
-		<Value>Sao chép biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Copy.Name">
-		<Value>Tên biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Copy.Name.Hint">
-		<Value>Tên biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Copy.Published">
-		<Value>Ngày phát hành</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Copy.Published.Hint">
-		<Value>Tích chọn để đánh dấu một biến thể sản phẩm như công bố.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Deleted">
-		<Value>Biến thể sản phẩm được xóa thành công.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Discounts">
-		<Value>Giảm giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Discounts.NoDiscounts">
-		<Value>Không có giảm giá nào. Tạo ít nhất một giảm giá trước khi thiết lập.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.EditProductVariantDetails">
-		<Value>Sửa biến thể sản phẩm: {0}</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AdditionalShippingCharge">
-		<Value>Phụ phí vận chuyển</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AdditionalShippingCharge.Hint">
-		<Value>Phí vận chuyển.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AdminComment">
-		<Value>Ghi chú của quản trị viên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AdminComment.Hint">
-		<Value>Ghi chú của quản trị viên. Cho sử dụng trong nội bộ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AllowBackInStockSubscriptions">
-		<Value>Cho phép đăng ký hàng mới về kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AllowBackInStockSubscriptions.Hint">
-		<Value>Cho phép khách hàng đăng ký thông báo khi sản phẩm đã hết mới nhập vào kho.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AllowedQuantities">
-		<Value>Số lượng sản phẩm cho phép mua</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AllowedQuantities.Hint">
-		<Value>Nhập danh sách số lượng sản phẩm này được hạn chế, ngăn cách bằng dấu phẩy. Thay vì một hộp văn bản số lượng mà cho phép họ nhập số lượng bất kỳ, họ sẽ nhận được một danh sách thả xuống của giá trị mà bạn nhập vào đây.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AutomaticallyAddRequiredProductVariants">
-		<Value>Tự động thêm các biến thể sản phẩm này vào giỏ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AutomaticallyAddRequiredProductVariants.Hint">
-		<Value>Chọn để tự động thêm các biến thể sản phẩm này vào giỏ hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AvailableEndDateTime">
-		<Value>Ngày cuối cùng có hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AvailableEndDateTime.Hint">
-		<Value>Thời điểm cuối cùng sản phẩm còn hàng theo giờ quốc tế (UTC).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AvailableForPreOrder">
-		<Value>Sản phẩm phải đặt hàng trước</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AvailableForPreOrder.Hint">
-		<Value>Chọn nếu mặt hàng này có hàng đặt trước. Nó đồng thời hiển thị nút "Đặt trước" thay cho "Mua ngay".</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AvailableStartDateTime">
-		<Value>Ngày bắt đầu có hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.AvailableStartDateTime.Hint">
-		<Value>Thời điểm bắt đầu sản phẩm có hàng theo giờ quốc tế (UTC).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.BackorderMode">
-		<Value>Đơn hàng còn tồn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.BackorderMode.Hint">
-		<Value>Chọn chế độ đơn hàng tồn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.CallForPrice">
-		<Value>Gọi hỏi giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.CallForPrice.Hint">
-		<Value>Chọn để hiển thị "Gọi hỏi giá" hoặc "Gọi để thêm chi tiết" thay cho giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.CustomerEntersPrice">
-		<Value>Khách hàng nhập giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.CustomerEntersPrice.Hint">
-		<Value>Tùy chọn xác định có cho phép khách hàng nhập giá hay không.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Description">
-		<Value>Mô tả</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Description.Hint">
-		<Value>Mô tả của biến thể sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisableBuyButton">
-		<Value>Vô hiệu hóa nút mua</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisableBuyButton.Hint">
-		<Value>Chọn để vô hiệu hóa nút mua của sản phẩm. Có thể cần thiết đối với sản phẩm "theo yêu cầu".</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisableWishlistButton">
-		<Value>Vô hiệu hóa nút danh sách sản phẩm yêu thích</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisableWishlistButton.Hint">
-		<Value>Vô hiệu hóa nút danh sách sản phẩm yêu thích trong trang sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisplayOrder.Hint">
-		<Value>Chọn thứ tự hiển thị của biến thể sản phẩm. 1 biểu diễn đầu tiên trong danh sách các biến thể của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisplayStockAvailability">
-		<Value>Hiển thị tình trạng hàng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisplayStockAvailability.Hint">
-		<Value>Chọn để hiển thị tình trạng hàng trong kho. Khách hàng có thể thấy tình trạng hàng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisplayStockQuantity">
-		<Value>Hiển thị số lượng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DisplayStockQuantity.Hint">
-		<Value>Chọn để hiển thị số lượng hàng trong kho.Khách hàng có thể thấy số lượng hàng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Download">
-		<Value>Tải tập tin</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Download.Hint">
-		<Value>Tải tập tin.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DownloadActivationType">
-		<Value>Cho phép tải mẫu tệp tin</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DownloadActivationType.Hint">
-		<Value>Giá trị xác định khi tập tin có thể tải xuống.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DownloadExpirationDays">
-		<Value>Số ngày</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.DownloadExpirationDays.Hint">
-		<Value>Số ngày khách hàng có thể tải tập tin (ví dụ 14). Bỏ trống cho phép tải liên tục.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.GiftCardType">
-		<Value>Dạng thẻ quà tặng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.GiftCardType.Hint">
-		<Value>Chọn dạng thẻ quà tặng. Cảnh báo: Không khuyến khích thay đổi trong môi trường sản xuất.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.GTIN">
-		<Value>Mã số hàng quốc tế (GTIN)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.GTIN.Hint">
-		<Value>Nhập mã số hàng quốc tế. Mã số bao gồm UPC (Bắc Mỹ), EAN (Châu Âu), JAN (Nhật Bản).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.HasSampleDownload">
-		<Value>Có tập tin mẫu để tải</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.HasSampleDownload.Hint">
-		<Value>Chọn nếu sản phẩm có tập tin mẫu có thể tải xuống trước khi thanh toán.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.HasUserAgreement">
-		<Value>Có sự đồng ý của người sử dụng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.HasUserAgreement.Hint">
-		<Value>Chọn nếu sản phẩm có sự yêu cầu đồng ý của người sử dụng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Height">
-		<Value>Chiều cao</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Height.Hint">
-		<Value>Chiều cao của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ID">
-		<Value>ID</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ID.Hint">
-		<Value>Mã số biến thể sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsDownload">
-		<Value>Sản phẩm có thể tải xuống</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsDownload.Hint">
-		<Value>Chọn nếu biến thể sản phẩm có thể tải xuống. Khi khách hàng mua sản phẩm tải xuống, họ có thể tải sản phẩm trực tiếp từ cửa hàng của bạn khi kết thúc đơn hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsFreeShipping">
-		<Value>Miễn phí vận chuyển</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsFreeShipping.Hint">
-		<Value>Chọn nếu sản phẩm miễn phí vận chuyển.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsGiftCard">
-		<Value>Là thẻ quà tặng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsGiftCard.Hint">
-		<Value>Chọn nếu có thẻ quà tặng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsRecurring">
-		<Value>Sản phẩm trả nhiều lần</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsRecurring.Hint">
-		<Value>Kiểm tra xem sản phẩm này là sản phẩm trả nhiều lần.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsShipEnabled">
-		<Value>Cho phép vận chuyển</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsShipEnabled.Hint">
-		<Value>Xác định sản phẩm có thể vận chuyển hay không.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsTaxExempt">
-		<Value>Miễn thuế</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.IsTaxExempt.Hint">
-		<Value>Xác định sản phẩm có miễn thuế hay không (thuế không được tính khi thanh toán).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Length">
-		<Value>Chiều dài</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Length.Hint">
-		<Value>Chiều dài của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.LowStockActivity">
-		<Value>Hành động khi hết hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.LowStockActivity.Hint">
-		<Value>Hành động khi số hàng trong kho xuống dưới mức "số lượng hàng trong kho ít nhất".</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ManageInventoryMethod">
-		<Value>Phương thức quản lý kho hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ManageInventoryMethod.Hint">
-		<Value>Chọn phương thức quản lý kho hàng. Khi cho phép, số lượng hàng trong kho tự động thay đổi khi khách mua hàng. Bạn cũng có thể chọn hành động khi hết hàng và nhận thông báo.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ManufacturerPartNumber">
-		<Value>Mã số bộ phận của nhà sản xuất</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ManufacturerPartNumber.Hint">
-		<Value>Mã số bộ phận của nhà sản xuất cho biến thể sản phẩm này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MaximumCustomerEnteredPrice">
-		<Value>Số lượng tối đa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MaximumCustomerEnteredPrice.Hint">
-		<Value>Nhập số lượng tối đa.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MaxNumberOfDownloads">
-		<Value>Số lượt tải tối đa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MaxNumberOfDownloads.Hint">
-		<Value>Số lượt tải tối đa.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MinimumCustomerEnteredPrice">
-		<Value>Số lượng tối thiểu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MinimumCustomerEnteredPrice.Hint">
-		<Value>Nhập số lượng tối thiểu.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MinStockQuantity">
-		<Value>Số lượng tối thiểu trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.MinStockQuantity.Hint">
-		<Value>Nếu bạn cho phép "Quản lý kho hàng" bạn có thể thực hiện một số biện pháp khi số lượng hàng hiện tại trong kho xuống dưới số lượng tối thiểu trong kho hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Name.Hint">
-		<Value>Tên của biến thể sản phẩm. Có ích khi bạn có nhiều biến thể của một sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.NotifyAdminForQuantityBelow">
-		<Value>Thông báo quản trị viên khi số lượng thấp hơn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.NotifyAdminForQuantityBelow.Hint">
-		<Value>Khi số lượng hàng trong kho thấp hơn giá trị này, chủ cửa hàng (quản trị viên) sẽ nhận thông báo.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.OldPrice">
-		<Value>Giá cũ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.OldPrice.Hint">
-		<Value>Giá cũ của sản phẩm. Nếu cho phép sẽ hiển thị cùng giá hiện tại trên trang sản phẩm để biểu diễn chênh lệch giá.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.OrderMaximumQuantity">
-		<Value>Số lượng tối đa của giỏ hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.OrderMaximumQuantity.Hint">
-		<Value>Chọn số lượng tối đa cho phép trong giỏ hàng của khách ví dụ chọn "5" để cho phép khách hàng chỉ được mua 5 sản phẩm này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.OrderMinimumQuantity">
-		<Value>Số lượng tối thiểu của giỏ hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.OrderMinimumQuantity.Hint">
-		<Value>Chọn số lượng tối thiểu cho phép trong giỏ hàng của khách ví dụ chọn "3" để cho phép khách hàng chỉ được mua 3 sản phẩm hoặc hơn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Picture">
-		<Value>Ảnh</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Picture.Hint">
-		<Value>Ảnh của biến thể sản phẩm. Có ích khi bạn có nhiều biến thể của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Price">
-		<Value>Giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Price.Hint">
-		<Value>Giá của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ProductCost">
-		<Value>Chi phí của sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ProductCost.Hint">
-		<Value>Chi phí của sản phẩm là tổng chi phí của tất cả các thành phần tạo thành sản phẩm. Nó có thể là giá mua được tạo bởi các thành phần được mua từ các nhà cung cấp ngoài, hoặc tổng chi phí của các nguyên liệu và quá trình sản xuất nếu các thành phần được tự chế.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ProductName">
-		<Value>Tên sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ProductName.Hint">
-		<Value>Tên của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.ProductName.Required">
-		<Value>Xin cung cấp tên.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Published">
-		<Value>Được đăng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Published.Hint">
-		<Value>Chọn để đăng biến thể sản phẩm này (hiển thị trong kho). Không chọn để không đăng (không hiển thị trong kho)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RecurringCycleLength">
-		<Value>Độ dài chu kỳ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RecurringCycleLength.Hint">
-		<Value>Nhập thời gian của kỳ trả.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RecurringCyclePeriod">
-		<Value>Giai đoạn của chu kỳ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RecurringCyclePeriod.Hint">
-		<Value>Chọn giai đoạn của chu kỳ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RecurringTotalCycles">
-		<Value>Tổng số chu kỳ</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RecurringTotalCycles.Hint">
-		<Value>Nhập tổng số kỳ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RequiredProductVariantIds">
-		<Value>Yêu cầu ID của các biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RequiredProductVariantIds.Hint">
-		<Value>Xác định danh sách ID của các biến thể sản phẩm cần thiết được ngăn cách bởi dấu phẩy. Chú ý: Chắc chắn không có trùng lặp (ví dụ, A yêu cầu B, và B yêu cầu A).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RequireOtherProducts">
-		<Value>Yêu cầu các biến thể sản phẩm khác được thêm vào giỏ hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.RequireOtherProducts.Hint">
-		<Value>Chọn nếu muốn các biến thể khác được thêm vào giỏ hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SampleDownload">
-		<Value>Mẫu tập tin tải xuống</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SampleDownload.Hint">
-		<Value>Mẫu tập tin tải xuống.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Sku">
-		<Value>Mã số kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Sku.Hint">
-		<Value>Mã số kho của sản phẩm. Mã số riêng nội bộ của cửa hàng để theo dõi</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SpecialPrice">
-		<Value>Giá đặc biệt</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SpecialPrice.Hint">
-		<Value>Chọn giá đặc biệt cho biến thể của sản phẩm. Giá mới sẽ có hiệu lực từ ngày bắt đầu đến ngày kết thúc. Có thể không có.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SpecialPriceEndDateTimeUtc">
-		<Value>Ngày kết thúc giá đặc biệt</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SpecialPriceEndDateTimeUtc.Hint">
-		<Value>Ngày kết thúc giá đặc biệt theo giờ quốc tế (UTC).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SpecialPriceStartDateTimeUtc">
-		<Value>Ngày bắt đầu giá đặc biệt</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.SpecialPriceStartDateTimeUtc.Hint">
-		<Value>Ngày bắt đầu của giá đặc biệt theo giờ quốc tế (UTC).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.StockQuantity">
-		<Value>Số lượng hàng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.StockQuantity.Hint">
-		<Value>Số lượng hàng trong kho hiện tại của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.TaxCategory">
-		<Value>Danh mục thuế</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.TaxCategory.Hint">
-		<Value>Danh mục thuế cho sản phẩm này. Bạn có thể quản lý danh mục thuế từ Cấu hình : Thuế : Danh mục thế</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.UnlimitedDownloads">
-		<Value>Không giới hạn tải xuống</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.UnlimitedDownloads.Hint">
-		<Value>Khi khách hàng mua sản phẩm tải xuống, họ có thể tải sản phẩm không giới hạn lượt tải.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.UserAgreementText">
-		<Value>Văn bản đồng ý của người sử dụng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.UserAgreementText.Hint">
-		<Value>Văn bản đồng ý của người sử dụng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Weight">
-		<Value>Trọng lượng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Weight.Hint">
-		<Value>Trọng lượng của sản phẩm. Có thể được dùng trong tính phí vận chuyển.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Width">
-		<Value>Chiều rộng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Fields.Width.Hint">
-		<Value>Chiều rộng của sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Info">
-		<Value>Thông tin biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes">
-		<Value>Thuộc tính biến thể của sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations">
-		<Value>Kết hợp của thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.AddNew">
-		<Value>Thêm kết hợp</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.AddTitle">
-		<Value>Chọn kết hợp mới và nhập thông tin bên dưới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Description">
-		<Value>Các kết hợp thuộc tính khi "Phương thức quản lý kho hàng" được chọn là "Theo dõi kho hàng theo thuộc tính sản phẩm"</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders">
-		<Value>Cho phép đặt hàng khi hết hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.AllowOutOfStockOrders.Hint">
-		<Value>Giá trị cho phép đặt hàng khi đã hết sản phẩm trong kho.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.Attributes">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.GTIN">
-		<Value>Mã số thương mại toàn cầu(GTIN)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.GTIN.Hint">
-		<Value>Nhập mã số thương mại toàn cầu. Mã nhận diện bao gồm UPC(Bắc Mỹ), EAN(EU), JAN(Japan) và ISBN(cho sách)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.ManufacturerPartNumber">
-		<Value>Mã nhận dạng nhà sản xuất (MPN)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.ManufacturerPartNumber.Hint">
-		<Value>Mã nhận dạng nhà sản xuất (MPN) của tổ hợp thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.Sku">
-		<Value>Mã tồn kho (SKU)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.Sku.Hint">
-		<Value>Mã tồn kho (SKU). Mã định danh duy nhất theo quy định của bạn, có thể được sử dụng để theo dõi  tổ hợp thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.StockQuantity">
-		<Value>Số lượng trong kho</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.AttributeCombinations.Fields.StockQuantity.Hint">
-		<Value>Số lượng hiện tại của sản phẩm trong kho của kết hợp này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Fields.Attribute">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Fields.AttributeControlType">
-		<Value>Loại điều khiển</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Fields.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Fields.IsRequired">
-		<Value>Có yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Fields.TextPrompt">
-		<Value>Văn bản nhắc nhở</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values">
-		<Value>Giá trị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.AddNew">
-		<Value>Thêm giá trị mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.BackToProductVariant">
-		<Value>Trở về chi tiết biến thể sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.EditAttributeDetails">
-		<Value>Thêm/ Sửa giá trị [{0}] thuộc tính. Sản phẩm: {1}</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.EditValueDetails">
-		<Value>Sửa giá trị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.ColorSquaresRgb">
-		<Value>Màu RGB</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.ColorSquaresRgb.Hint">
-		<Value>Chọn màu sắc được sử dụng với các hình vuông kiểm soát thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.DisplayOrder.Hint">
-		<Value>Thứ tự hiển thị của giá trị thuộc tính. 1 biểu diễn giá trị đầu tiên của danh sách.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.IsPreSelected">
-		<Value>Được lựa chọn trước</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.IsPreSelected.Hint">
-		<Value>Xác định giá trị thuộc tính được lựa chọn trước bởi khách hàng hay không</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.Name">
-		<Value>Tên của thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.Name.Hint">
-		<Value>Tên của thuộc tính ví dụ "Xanh" cho thuộc tính Màu Sắc.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.Name.Required">
-		<Value>Xin nhập tên.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.PriceAdjustment">
-		<Value>Giá điều chỉnh khi giá trị thuộc tính được chọn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.PriceAdjustment.Hint">
-		<Value>Giá điều chỉnh được áp dụng khi giá trị thuộc tính này được chọn ví dụ "10" để thêm 10 dollars.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.WeightAdjustment">
-		<Value>Điều chỉnh trọng lượng khi giá trị thuộc tính được chọn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.Fields.WeightAdjustment.Hint">
-		<Value>Điều chỉnh trọng lượng được áp dụng khi thuộc tính này được chọn</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.Attributes.Values.ViewLink">
-		<Value>Xem/sửa giá trị (Tổng cộng: {0})</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.NoAttributesAvailable">
-		<Value>Không có thuộc tính sản phẩm nào. Tạo ít nhất một thuộc tính sản phẩm trước khi thiết lập.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.ProductVariantAttributes.SaveBeforeEdit">
-		<Value>Bạn cần phải lưu biến thể sản phẩm trước khi thêm thuộc tính cho trang biến thể sản phẩm này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.TierPrices">
-		<Value>Thang giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.TierPrices.Fields.CustomerRole">
-		<Value>Vai trò khách hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.TierPrices.Fields.CustomerRole.AllRoles">
-		<Value>Tất cả vai trò khách hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.TierPrices.Fields.Price">
-		<Value>Giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.TierPrices.Fields.Quantity">
-		<Value>Số lượng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.TierPrices.SaveBeforeEdit">
-		<Value>Bạn cần phải lưu biến thể sản phẩm trước khi thêm tầng giá cho trang biến thể sản phẩm này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Catalog.Products.Variants.Updated">
-		<Value>Biến thể sản phẩm được cập nhập thành công.</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Catalog.ProductTags">
 		<Value>Thẻ sản phẩm</Value>
 	</LocaleResource>
@@ -4626,640 +3327,11 @@
 	<LocaleResource Name="Admin.Catalog.ProductTags.Fields.ProductCount">
 		<Value>Sản phẩm được đánh dấu thẻ</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Attributes.Description">
-		<Value>Quản lý các thuộc tính sản phẩm và các thuộc tính đặc điểm kỹ thuật.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Attributes.Title">
-		<Value>Thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Attributes.TitleDescription">
-		<Value>Quản lý các thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.CatalogHome">
-		<Value>Trang chủ Danh mục </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Categories.Description1">
-		<Value>Danh mục sản phẩm là các nhóm phân cấp cho các sản phẩm trong danh mục của bạn (ví dụ như "máy tính"). Chúng cho phép khách hàng của bạn để tìm thấy những gì họ đang tìm kiếm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Categories.Description2">
-		<Value>Quản lý chi tiết Danh  mục, bản đồ sản phẩm, lựa chọn tối ưu hóa công cụ tìm kiếm và giảm giá.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Categories.Title">
-		<Value>Danh  mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Categories.TitleDescription">
-		<Value>Quản lý các danh  mục sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.intro">
-		<Value>Sử dụng các liên kết trên trang này để quản lý tất cả các khía cạnh của danh mục sản phẩm của bạn như sản phẩm, chủng loại, nhà cung cấp và thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Manufacturers.Description1">
-		<Value>Quản lý các nhà cung cấp (nhãn hiệu) cho các sản phẩm trong danh mục của bạn. Bạn có thể bản đồ sản phẩm cá nhân để các nhà cung cấp của bạn để cho một khách hàng có thể xem các sản phẩm của nhà cung cấp cũng như các danh mục.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Manufacturers.Description2">
-		<Value>Quản lý chi tiết nhà cung cấp, bản đồ sản phẩm và các tùy chọn tối ưu hóa công cụ tìm kiếm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Manufacturers.Title">
-		<Value>Các nhà cung cấp</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Manufacturers.TitleDescription">
-		<Value>Quản lý các nhà cung cấp sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Products.Description">
-		<Value>Quản lý sản phẩm, biến sản phẩm (SKU) và đánh giá sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Products.Title">
-		<Value>Sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CatalogHome.Products.TitleDescription">
-		<Value>Quản lý sản phẩm.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.AddNewButton.Text">
-		<Value>Thêm mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.AddNewButton.ToolTip">
-		<Value>Thêm một danh mục mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.AddNewCategory">
-		<Value>Thêm một danh mục mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.Categories">
-		<Value>Danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.DisplayOrder">
-		<Value>Thứ tự hiện thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.Edit">
-		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.Edit.Tooltip">
-		<Value>sửa danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.ExportXMLButton.Text">
-		<Value>Xuất ra XML</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.ExportXMLButton.ToolTip">
-		<Value>Xuất danh sách các danh mục vào một tập tin xml</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.ManageCategories">
-		<Value>Quản lý các danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.Products">
-		<Value>Sản phẩm:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.Published">
-		<Value>Được đăng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.SaveButton.ToolTip">
-		<Value>Lưu cài đặt danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Categories.ShowOnTheMainPage">
-		<Value>Hiển thị trên trang chính:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryACL.MarkRequired">
-		<Value>Đánh dấu tất cả các vai trò khách hàng bạn muốn hạn chế truy cập đến danh mục này</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryACL.Note">
-		<Value>Chú: ACL quy tắc áp dụng cho các gian hàng công cộng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.ACL">
-		<Value>Kiểm soát truy cập
-		</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.AddNewCategory">
-		<Value>Thêm một danh mục mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.BackToCategoryList">
-		<Value>trở lại danh sách danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.CategoryInfo">
-		<Value>Thông tin Danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.Discounts">
-		<Value>Giảm giá áp dụng cho các danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.SaveButton.ToolTip">
-		<Value>Lưu Danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryAdd.SEO">
-		<Value>Tối ưu hóa công cụ tìm kiếm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.ACL">
-		<Value>Kiểm soát truy cập
-		</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.BackToCategoryList">
-		<Value>trở lại danh sách danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.CategoryInfo">
-		<Value>Thông tin danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.DeleteButton.ToolTip">
-		<Value>Xóa danh mục này</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.Discounts">
-		<Value>Giảm giá áp dụng cho các danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.EditCategoryDetails">
-		<Value>Chỉnh sửa chi tiết danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.PreviewButton.Text">
-		<Value>Xem trước</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.PreviewButton.ToolTip">
-		<Value>Nhấn vào đây để xem các trang danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.Products">
-		<Value>Sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.SaveButton.ToolTip">
-		<Value>Lưu thay đổi tới danh mục này</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryDetails.SEO">
-		<Value>Tối ưu hóa công cụ tìm kiếm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.CategoryTemplate">
-		<Value>Mẫu:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.CategoryTemplate.Tooltip">
-		<Value>Chọn một mẫu danh mục. Mẫu này định nghĩa trong các sản phẩm trong danh mục này sẽ được hiển thị. Bạn có thể quản lý các mẫu từ quản trị nội dung: Mẫu: Danh mục Mẫu.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Description">
-		<Value>Mô tả:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Description.Tooltip">
-		<Value>Một mô tả của danh mục này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.DisplayOrder.RangeErrorMessage">
-		<Value>Thứ tự hiển thị phải từ -99.999 đến 99999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.DisplayOrder.RequiredErrorMessage">
-		<Value>Thứ tự hiển thị được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.DisplayOrder.Tooltip">
-		<Value>Đặt thứ tự hiển thị của Danh mục. 1 là đầu danh sách.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Image">
-		<Value>Hình ảnh:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Image.Remove">
-		<Value>Hủy bỏ hình ảnh</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Image.Remove.Tooltip">
-		<Value>Hủy bỏ hình ảnh danh mục này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Image.ToolTip">
-		<Value>Hình ảnh danh mục.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Image.Upload">
-		<Value>Chọn một hình ảnh danh mục mới để tải lên.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Name">
-		<Value>Tên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Name.Required">
-		<Value>Tên được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Name.ToolTip">
-		<Value>Tên của danh mục.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.ParentCategory">
-		<Value>Danh mục cha:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.ParentCategory.Tooltip">
-		<Value>Chọn một Danh mục cha cho danh mục này. Để lại như [---] để làm cho danh mục này là gốc</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.PriceRanges">
-		<Value>Giá dao động:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.PriceRanges.Tooltip">
-		<Value>Xác định phạm vi giá cho lọc giá cả trongcửa hàng. Các dãy riêng biệt với một dấu chấm phẩy ví dụ như "0 -199; 200-300; 301 -; </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Published">
-		<Value>Được đăng:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.Published.Tooltip">
-		<Value>Kiểm tra được đăng của danh mục này (có thể nhìn thấy trong cửa hàng). Bỏ chọn để không được đăng. (Danh mục không có sẵn trong cửa hàng)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.ShowOnHomePage">
-		<Value>Hiển thị trên trang chủ:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryInfo.ShowOnHomePage.Tooltip">
-		<Value>Kiểm tra xem bạn muốn hiển thị một danh mục trên trang chủ.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.AddNewButton.Text">
-		<Value>Thêm sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.DisplayOrder">
-		<Value>Thứ tự hiển thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.DisplayOrder.RangeErrorMessage">
-		<Value>Thứ tự hiển thị phải từ -99.999 đến 99999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.DisplayOrder.RequiredErrorMessage">
-		<Value>Thứ tự hiển thị được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.FeaturedProduct">
-		<Value>Các sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.FeaturedProduct.Tooltip">
-		<Value>Chọn sản phẩm làm mục giới thiệu sản phẩm trong danh mục này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.Image">
-		<Value>Hình ảnh</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.Mapped.Tooltip">
-		<Value>Bản đồ sản phẩm này vào danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.Product">
-		<Value>Sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.View">
-		<Value>Xem</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryProducts.View.Tooltip">
-		<Value>Xem chi tiết sản phẩm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.MetaDescription">
-		<Value>Mô tả Meta:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.MetaDescription.Tooltip">
-		<Value>Mô tả Meta  được thêm vào tiêu đề trang Danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.MetaKeywords">
-		<Value>Từ khoá Meta:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.MetaKeywords.Tooltip">
-		<Value>Từ khoá Meta được thêm vào tiêu đề trang Danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.MetaTitle">
-		<Value>Tiêu đề Meta:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.MetaTitle.Tooltip">
-		<Value>Ghi đè tiêu đề trang. Mặc định là tên của danh mục này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.PageSize">
-		<Value>Kích cỡ trang:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.PageSize.RangeErrorMessage">
-		<Value>Các kích thước trang phải từ 0 đến 999999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.PageSize.RequiredErrorMessage">
-		<Value>Nhập kích thước trang</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.PageSize.Tooltip">
-		<Value>Thiết lập kích thước trang cho các sản phẩm trong thể loại này, ví dụ '4 ' sản phẩm trên mỗi trang.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.SEName">
-		<Value>Công cụ tìm kiếm thân thiện với tên trang:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategorySEO.SEName.Tooltip">
-		<Value>Thiết lập một công cụ tìm kiếm thân thiện với tên trang như "The Best Máy tính 'để làm cho tên trang' # #-the-best-computers.aspx '(# # đại diện cho các ID thể loại). Mặc định là tên của danh mục.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateAdd.AddButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateAdd.AddButton.Tooltip">
-		<Value>Lưu loại mẫu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateAdd.BackToTemplates">
-		<Value>trở lại danh sách các mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateAdd.Title">
-		<Value>Thêm một mẫu danh mục mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.BackToTemplates">
-		<Value>trở lại danh sách các mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.DeleteButton.Tooltip">
-		<Value>Xóa  mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.SaveButton.Tooltip">
-		<Value>Lưu  mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateDetails.Title">
-		<Value>Chỉnh sửa chi tiết mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.CreatedOn">
-		<Value>Tạo lúc:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.CreatedOn.Tooltip">
-		<Value>Ngày / thời gian mẫu đã được tạo ra.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.DisplayOrder">
-		<Value>Thứ tự hiện thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.DisplayOrder.RangeErrorMessage">
-		<Value>Thứ tự hiển thị phải từ -99.999 đến 99999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.DisplayOrder.RequiredErrorMessage">
-		<Value>Thứ tự hiển được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.DisplayOrder.Tooltip">
-		<Value>Thứ tự hiển thị của mẫu này. 1 là đầu danh sách.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.Name">
-		<Value>Tên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.Name.ErrorMessage">
-		<Value>Tên được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.Name.Tooltip">
-		<Value>Tên thân thiện của mẫu.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.TemplatePath">
-		<Value>Mẫu đường dẫn:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.TemplatePath.Tooltip">
-		<Value>Các đường dẫn hợp lý của tập tin mẫu ví dụ như 'Templates \ Danh mục \ MyTemplate.ascx'.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.UpdatedOn">
-		<Value>Cập nhật trên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplateInfo.UpdatedOn.Tooltip">
-		<Value>Ngày / thời gian mẫu đã được cập nhật.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.AddButton.Text">
-		<Value>Thêm mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.AddButton.Tooltip">
-		<Value>Thêm một mẫu danh mục mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.DisplayOrder">
-		<Value>Thứ tự hiện thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.Edit">
-		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.Edit.Tooltip">
-		<Value>Chỉnh sửa  mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CategoryTemplates.Title">
-		<Value>Quản lý các mẫu danh mục</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeAdd.AddNew">
-		<Value>Thêm một thuộc tính thanh toán mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeAdd.AttributeInfo">
-		<Value>Thông tin thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeAdd.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeAdd.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeAdd.SaveButton.Tooltip">
-		<Value>Lưu thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeAdd.Values">
-		<Value>Giá trị thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.AttributeInfo">
-		<Value>Thông tin thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.BackToList">
-		<Value>trở lại danh sách thuộc tính thanh toán</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.DeleteButton.Text">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.DeleteButton.Tooltip">
-		<Value>Xóa thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.Edit">
-		<Value>Chỉnh sửa thuộc tính thanh toán</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.SaveAndStayButton.Text">
-		<Value>Lưu và tiếp tục sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.SaveButton.Text">
-		<Value>Lưu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.SaveButton.Tooltip">
-		<Value>Lưu thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeDetails.Values">
-		<Value>Giá trị thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.ControlType">
-		<Value>Loại điều khiển:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.ControlType.Tooltip">
-		<Value>Chọn cách hiển thị giá trị thuộc tính của bạn.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Delete">
-		<Value>Xóa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.DisplayOrder">
-		<Value>Thứ tự hiện thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.DisplayOrder.RangeErrorMessage">
-		<Value>Thứ tự hiển thị phải từ -99.999 đến 99999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.DisplayOrder.RequiredErrorMessage">
-		<Value>Thứ tự hiển được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.DisplayOrder.Tooltip">
-		<Value>Thuộc tính sản phẩm để hiển thị. 1 là mục đầu tiên trong danh sách.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.IsPreSelected">
-		<Value>Là chọn trước</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Name">
-		<Value>Thêm giá trị mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Name.ErrorMessage">
-		<Value>Tên được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Name.Text">
-		<Value>Tên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Name.Tooltip">
-		<Value>Tên của thuộc tính thanh toán.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.PriceAdjustment">
-		<Value>Giá điều chỉnh</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.PriceAdjustment.RangeErrorMessage">
-		<Value>Giá phải từ 0 đến 100000000</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.PriceAdjustment.RequiredErrorMessage">
-		<Value>Giá điều chỉnh được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Required">
-		<Value>Yêu cầu:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Required.Tooltip">
-		<Value>Khi một thuộc tính được yêu cầu, khách hàng phải chọn một giá trị thuộc tính thích hợp trước khi họ có thể tiếp tục.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.ShippableProductRequired">
-		<Value>Vận chuyển sản phẩm yêu cầu:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.ShippableProductRequired.Tooltip">
-		<Value>Một lựa chọn cho thấy dù là sản phẩm vận chuyển được yêu cầu để hiển thị thuộc tính này.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.TaxCategory">
-		<Value>Thuế danh mục:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.TaxCategory.Tooltip">
-		<Value>Việc phân loại thuế cho các tùy chọn này. Bạn có thể quản lý phân loại thuế từ Cấu hình: Thuế: Lớp Thuế </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.TaxExempt">
-		<Value>Miễn thuế:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.TaxExempt.Tooltip">
-		<Value>Xác định xem tùy chọn này được miễn thuế (thuế sẽ không được áp dụng đối với tùy chọn này lúc thanh toán).</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.TextPrompt.Text">
-		<Value>Văn bản nhắc nhở:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.TextPrompt.Tooltip">
-		<Value>Nhập văn bản nhắc nhở.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.Update">
-		<Value>Cập nhật</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.ValuesNotRequiredForThisControlType">
-		<Value>Các giá trị không cần thiết để kiểm soát loại thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.WeightAdjustment">
-		<Value>điều chỉnh trọng lượng </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.WeightAdjustment.RangeErrorMessage">
-		<Value>Việc điều chỉnh trọng lượng phải từ 0-999999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfo.WeightAdjustment.RequiredErrorMessage">
-		<Value>Điều chỉnh trọng lượng được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeInfoValues.AddNew">
-		<Value>Add new values</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.AddButton.Text">
-		<Value>Thêm mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.AddButton.Tooltip">
-		<Value>Thêm một thuộc tính thanh toán mới</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.AttributeControlType">
-		<Value>Loại điều khiển</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.DisplayOrder">
-		<Value>Thứ tự hiện thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.Edit">
-		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.IsRequired">
-		<Value>Được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.Name">
-		<Value>Tên</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributes.Title">
-		<Value>Thuộc tính thanh toán</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.AvailableAfterSaving">
-		<Value>Bạn cần phải lưu các thuộc tính thanh toán trước khi bạn có thể thêm giá trị cho trang </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.AddNewButton.Text">
-		<Value>Thêm</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.AddNewButton.Tooltip">
-		<Value>Thêm giá trị thuộc tính </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.DisplayOrder">
-		<Value>Thứ tự hiện thị</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.DisplayOrder.RangeErrorMessage">
-		<Value>Thứ tự hiển thị phải từ -99.999 đến 99999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.DisplayOrder.RequiredErrorMessage">
-		<Value>Thứ tự hiển được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.DisplayOrder.Tooltip">
-		<Value>Thứ tự hiển thị giá trị thuộc tính. 1 là mục đầu tiên trong danh sách các giá trị thuộc tính.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.Name">
-		<Value>Tên:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.Name.Tooltip">
-		<Value>Tên giá trị thuộc tính ví dụ như 'Có' hoặc 'Không' cho quà tặng thuộc tính thanh toán</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.PreSelected">
-		<Value>Chọn trước:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.PreSelected.Tooltip">
-		<Value>Xác định xem giá trị thuộc tính này là trước khi lựa chọn cho khách hàng.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.PriceAdjustment">
-		<Value>Giá điều chỉnh:</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.PriceAdjustment.RangeErrorMessage">
-		<Value>Giá phải từ 0 đến 100000000</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.PriceAdjustment.RequiredErrorMessage">
-		<Value>Giá điều chỉnh được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.PriceAdjustment.Tooltip">
-		<Value>Việc điều chỉnh giá áp dụng khi lựa chọn giá trị này thuộc tính ví dụ như '10000 'để thêm 10 000 VND.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.WeightAdjustment">
-		<Value>điều chỉnh trọng lượng </Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.WeightAdjustment.RangeErrorMessage">
-		<Value>Việc điều chỉnh trọng lượng phải từ 0-999999</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.WeightAdjustment.RequiredErrorMessage">
-		<Value>Điều chỉnh trọng lượng được yêu cầu</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.CheckoutAttributeValues.New.WeightAdjustment.Tooltip">
-		<Value>Việc điều chỉnh trọng lượng được áp dụng khi lựa chọn giá trị này thuộc tính</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.ClearCacheButton.Text">
-		<Value>Xóa bộ nhớ đệm</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Common.AddNew">
 		<Value>Thêm mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Common.AddNewRecord">
+		<Value>Thêm ghi chép mới</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.All">
 		<Value>Tất cả</Value>
@@ -5285,9 +3357,6 @@
 	<LocaleResource Name="Admin.Common.CsvFile">
 		<Value>Tệp CSV</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Common.CustomerGuest">
-		<Value>Khách</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Delete">
 		<Value>Xóa</Value>
 	</LocaleResource>
@@ -5302,15 +3371,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Edit">
 		<Value>Sửa</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Common.Editor.BBCodeEditor">
-		<Value>BBCode Editor</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Common.Editor.HTMLEditor">
-		<Value>HTML Editor</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Common.Editor.Simple">
-		<Value>Đơn giản</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.ExcelFile">
 		<Value>Tệp Excel</Value>
@@ -5340,7 +3400,7 @@
 		<Value>Thực hiện</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Hide">
-		<Value>Hide</Value>
+		<Value>Ẩn</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.ImportFromCsv">
 		<Value>Nhập từ CSV</Value>
@@ -5360,9 +3420,6 @@
 	<LocaleResource Name="Admin.Common.NoCancel">
 		<Value>Không, hủy bỏ</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Common.OK">
-		<Value>OK</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Preview">
 		<Value>Xem trước</Value>
 	</LocaleResource>
@@ -5376,7 +3433,7 @@
 		<Value>Tìm kiếm</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Select">
-		<Value>Select</Value>
+		<Value>Chọn</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.SEO">
 		<Value>SEO (Tối ưu hóa cho công cụ tìm kiếm)</Value>
@@ -5387,14 +3444,8 @@
 	<LocaleResource Name="Admin.Common.Standard">
 		<Value>Tiêu chuẩn</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Common.State.Other">
-		<Value>Khác </Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Treeview">
 		<Value>Xem theo cây</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Common.Unknown">
-		<Value>Không biết</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.Update">
 		<Value>Cập nhật</Value>
@@ -5404,9 +3455,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.View">
 		<Value>Xem</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Common.Wait...">
-		<Value>Chờ .....</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Common.WrongEmail">
 		<Value>Sai email</Value>
@@ -5640,7 +3688,7 @@
 		<Value>Bạn cần phải lưu trang trước khi bạn có thể thêm các thành phần cho trang này</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Countries.Stores">
-		<Value>Stores</Value>
+		<Value>Các cửa hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Countries.UnpublishSelected">
 		<Value>Bỏ đăng các vùng đã chọn</Value>
@@ -6060,7 +4108,7 @@
 		<Value>Ngôn ngữ được cập nhật thành công.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Languages.XmlFile">
-		<Value>Xml file</Value>
+		<Value>Tệp Xml</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Languages.XmlFile.Note1">
 		<Value>Chú ý: Có thể mất đến vài phút.</Value>
@@ -6084,10 +4132,7 @@
 		<Value>Thứ tự hiển thị</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryDimension">
-		<Value>Is primary dimension</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.IsPrimaryWeight">
-		<Value>Là đơn vị kích thước chính</Value>
+		<Value>Là kích thước chủ yếu</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Measures.Dimensions.Fields.MarkAsPrimaryDimension">
 		<Value>Đánh dấu là đơn vị chính tính kích thước</Value>
@@ -6302,11 +4347,11 @@
 	<LocaleResource Name="Admin.Configuration.Plugins.LoadMode">
 		<Value>Chế độ tải</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Plugins.Local">
+		<Value>Các tiện ích cục bộ</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Plugins.LoadMode.Hint">
 		<Value>Tìm theo một chế độ tải.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Plugins.Local">
-		<Value>Các plugin cục bộ</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Plugins.Misc.BackToList">
 		<Value>Quay lại danh sách tiện ích</Value>
@@ -6338,14 +4383,14 @@
 	<LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Price">
 		<Value>Giá</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Price.Commercial">
-		<Value>Quảng cáo</Value>
-	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Price.Free">
 		<Value>Miễn phí</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Price.Hint">
 		<Value>Tìm kiếm theo giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.Price.Commercial">
+		<Value>Thương mại</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Plugins.OfficialFeed.SupportedVersions">
 		<Value>Phiên bản hỗ trợ</Value>
@@ -6385,9 +4430,6 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.AllSettings.Fields.StoreName.AllStores">
 		<Value>Tất cả các gian hàng</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.AllSettings.Fields.StoreName.SelectAllStores">
-		<Value>Chọn gian hàng</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.AllSettings.Fields.Value">
 		<Value>Giá trị</Value>
@@ -6458,6 +4500,12 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowProductViewModeChanging.Hint">
 		<Value>Kiểm tra để kích hoạt các tùy chọn để thay đổi chế độ xem trên trang chi tiết danh mục / nhà sản xuất.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowViewUnpublishedProductPage">
+		<Value>Cho phép xem trang chi tiết sản phẩm không được công khai</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.AllowViewUnpublishedProductPage.Hint">
+		<Value>Kiểm tra để cho phép xem trang những sản phẩm không được công khai. Điều này SEO sẽ không bị ảnh hưởng bởi các mắt xich tìm kiếm khi sản phẩm tạm thời chưa được công khai.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.CacheProductPrices">
 		<Value>Cache giá sản phẩm</Value>
 	</LocaleResource>
@@ -6470,11 +4518,20 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.CategoryBreadcrumbEnabled.Hint">
 		<Value>Dùng dấu phân cách giữa các loại sản phẩm.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProducts">
+		<Value>So sánh các sản phẩm</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled">
 		<Value>Kích hoạt "So sánh sản phẩm"</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.CompareProductsEnabled.Hint">
 		<Value>Kiểm tra để cho phép khách hàng sử dụng tùy chọn "So sánh các sản phẩm trong cửa hàng của bạn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDiscontinuedMessageForUnpublishedProducts">
+		<Value>Tin nhắn không tiếp tục cho những sản phẩm không được công khai</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayDiscontinuedMessageForUnpublishedProducts.Hint">
+		<Value>Kiểm tra để hiển thị "sản phẩm không được duy trì" nhắn tin khi xem chi tiết các trang của những sản phẩm không được công khai.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoFooter">
 		<Value>Hiện thị thuế/ thông tin vận chuyển(footer)</Value>
@@ -6500,17 +4557,17 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoProductDetailsPage.Hint">
 		<Value>Kiểm tra để hiển thị thông tin thuế và phí vận chuyển trên các trang chi tiết sản phẩm. Tùy chọn này được sử dụng ở Đức.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoShoppingCart">
+		<Value>Hiển thị thuế/ thông tin vận chuyển (xe hàng)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoShoppingCart.Hint">
+		<Value>Kiểm tra để hiển thị thuế và thông tin vận chuyển trên trang xe hàng. Lựa chọn này được dùng ở Đức.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoWishlist">
 		<Value>Thuế / Hiện thông tin vận chuyển (danh sách mong muốn)</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DisplayTaxShippingInfoWishlist.Hint">
 		<Value>Kiểm tra để hiển thị thông tin thuế và phí vận chuyển trên các trang danh sách mong muốn. Tùy chọn này được sử dụng ở Đức.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DynamicPriceUpdateAjax">
-		<Value>Sử dụng AJAX để tự động cập nhật giá</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.DynamicPriceUpdateAjax.Hint">
-		<Value>Kiểm tra nếu bạn muốn tự động cập nhật giá sử dụng AJAX. Cài đặt này sẽ tính toán giá cẩn thận hơn (xem xét kết hợp thuộc tính, giảm giá). Nó cũng cập nhật các giá trị SKU, MPN, GTIN ghi đè trong các kết hợp thuộc tính. Nhưng phương pháp này có thể hơi khác ảnh hưởng đến hiệu suất.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.EmailAFriendEnabled">
 		<Value>Kích hoạt tính năng "Gửi email cho bạn bè"</Value>
@@ -6518,17 +4575,8 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.EmailAFriendEnabled.Hint">
 		<Value>Kiểm tra để cho phép khách hàng sử dụng tùy chọn "Gửi email cho bạn bè"</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.EnableDynamicPriceUpdate">
-		<Value>Kích hoạt tính năng cập nhật giá tự động</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.EnableDynamicPriceUpdate.Hint">
-		<Value>Kiểm tra xem nếu bạn muốn kích hoạt tính tự động, cập nhật giá trên trang chi tiết sản phẩm trong trường hợp một sản phẩm có thuộc tính sản phẩm với giá điều chỉnh.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreAcl">
-		<Value>Bỏ qua quy tắc ACL (trên toàn site)</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreAcl.Hint">
-		<Value>Kiểm tra để bỏ qua quy tắc ACL được cấu hình cho các thực thể (trên toàn site). Khuyến khích để kích hoạt thiết lập này nếu bạn không sử dụng nó. Nó có thể cải thiện đáng kể hiệu suất.</Value>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.General">
+		<Value>Thông thường</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreDiscounts">
 		<Value>Bỏ qua chức năng giảm giá (trên toàn trang web)</Value>
@@ -6542,14 +4590,17 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreFeaturedProducts.Hint">
 		<Value>Kiểm tra để bỏ qua các sản phẩm đặc trưng của danh mục,nhà cung cấp (trên toàn web). Có thể cải thiện đáng kể hiệu suất.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreAcl">
+		<Value>Ignore ACL rules (sitewide)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreAcl.Hint">
+		<Value>Check to ignore ACL rules configured for entities (sitewide). Recommended to enable this setting if you don't use it. It can significantly improve performance.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreStoreLimitations">
 		<Value>Bỏ qua "giới hạn cho mỗi cửa hàng" quy tắc (trên toàn site)</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreStoreLimitations.Hint">
 		<Value>Kiểm tra để bỏ qua "giới hạn cho mỗi cửa hàng" quy tắc cấu hình cho các thực thể (trên toàn site). Khuyến khích để kích hoạt thiết lập này nếu bạn chỉ có một cửa hàng hoặc không sử dụng nó. Nó có thể cải thiện đáng kể hiệu suất.</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IgnoreTierPrices.Hint">
-		<Value>Kiểm tra để bỏ qua thang giá sản phẩm (trên toàn web). Có thể cải thiện đáng kể hiệu suất.</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.IncludeFullDescriptionInCompareProducts">
 		<Value>Hiển thị mô tả đầy đủ trong phần so sánh sản phẩm</Value>
@@ -6575,6 +4626,18 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.NotifyStoreOwnerAboutNewProductReviews.Hint">
 		<Value>Kiểm tra thông báo cho chủ sở hữu cửa hàng về đánh giá sản phẩm mới.</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.NewProductsEnabled">
+		<Value>'New products' page enabled</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.NewProductsEnabled.Hint">
+		<Value>Check to enable the 'New products' page in your store</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.NewProductsNumber">
+		<Value>Number of products on 'New products' page</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.NewProductsNumber.Hint">
+		<Value>The number of products to display when 'New products' page is enabled.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.NumberOfBestsellersOnHomepage">
 		<Value>Hiển thị sản phẩm bán chạy nhất trên trang chủ</Value>
 	</LocaleResource>
@@ -6592,6 +4655,12 @@
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.PageShareCode.Hint">
 		<Value>Mã chạy cho nút share. Mặc định, chúng ta sẽ sử dụng dịch vụ của AddThis</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.Performance">
+		<Value>Performance</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviews">
+		<Value>Product reviews</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductReviewsMustBeApproved">
 		<Value>Đánh giá sản phẩm phải được sự phê duyệt</Value>
@@ -6641,13 +4710,7 @@
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductSearchAutoCompleteNumberOfProducts.Hint">
 		<Value>Thay đổi số lượng kết quả hiển thị trong vùng autocomplete sổ xuống khi đang tìm kiếm</Value>
 	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsEnabled">
-		<Value>Kích hoạt "Sản phẩm mới"</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsEnabled.Hint">
-		<Value>Chọn để cho phép khách hàng sử dụng tính năng "Sản phẩm mới nhập"</Value>
-	</LocaleResource>
-	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsNumber">
+	<LocaleResource Name="Admin.Configuration.Settings.Catalog.ProductSearchTermMinimumLength">
 		<Value>Số lượng "Sản phẩm mới nhập"</Value>
 	</LocaleResource>
 	<LocaleResource Name="Admin.Configuration.Settings.Catalog.RecentlyAddedProductsNumber.Hint">
