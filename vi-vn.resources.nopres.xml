@@ -7662,6 +7662,2346 @@
 	<LocaleResource Name="Admin.ContentManagement.Widgets.Fields.SystemName">
 		<Value>Tên hệ thống</Value>
 	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts">
+		<Value>Giỏ hàng hiện tại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.Customer">
+		<Value>Khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.Product">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.Quantity">
+		<Value>Số lượng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.Store">
+		<Value>Gian hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.Total">
+		<Value>Tổng số</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.TotalItems">
+		<Value>Tổng số mặt hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.UnitPrice">
+		<Value>Đơn giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentCarts.UpdatedOn">
+		<Value>Ngày cập nhật</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.CurrentWishlists">
+		<Value>Danh sách sản phẩm yêu thích</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers">
+		<Value>Quản lý khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes">
+		<Value>Thuộc tính tùy chỉnh của khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Added">
+		<Value>Các thuộc tính mới đã được thêm thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.AddNew">
+		<Value>Thêm một thuộc tính của khách hàng mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.BackToList">
+		<Value>trở lại danh sách thuộc tính của khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Deleted">
+		<Value>Các thuộc tính đã được xóa thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Description">
+		<Value>Nếu các trường mẫu mặc định là không đủ cho nhu cầu của bạn, sau đó bạn có thể quản lý thêm thuộc tính khách hàng dưới đây.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.EditAttributeDetails">
+		<Value>Chỉnh sửa chi tiết thuộc tính của khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.AttributeControlType">
+		<Value>Loại điều khiển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.AttributeControlType.Hint">
+		<Value>Chọn cách hiển thị các giá trị thuộc tính của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.DisplayOrder">
+		<Value>Thứ tự hiển thị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.DisplayOrder.Hint">
+		<Value>Thứ tự hiển thị thuộc tính của khách hàng. 1 là mục đầu tiên trong danh sách.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.IsRequired">
+		<Value>Yêu cầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.IsRequired.Hint">
+		<Value>Khi một thuộc tính được yêu cầu, khách hàng phải chọn một giá trị thuộc tính thích hợp trước khi họ có thể tiếp tục.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.Name.Hint">
+		<Value>Tên thuộc tính của Khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Fields.Name.Required">
+		<Value>Vui lòng cung cấp một tên.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Info">
+		<Value>Thông tin thuộc tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Updated">
+		<Value>Các thuộc tính đã được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values">
+		<Value>Giá trị thuộc tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.AddNew">
+		<Value>Thêm một giá trị khách hàng mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.EditValueDetails">
+		<Value>Chỉnh sửa chi tiết giá trị khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.DisplayOrder">
+		<Value>Thứ tự hiển thị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.DisplayOrder.Hint">
+		<Value>Thứ tự hiển thị của các giá trị thuộc tính. 1 là mục đầu tiên trong danh sách giá trị thuộc tính.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.IsPreSelected">
+		<Value>Chọn trước</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.IsPreSelected.Hint">
+		<Value>Xác định xem giá trị thuộc tính này là lựa chọn trước cho khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.Name.Hint">
+		<Value>Tên của giá trị khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.Fields.Name.Required">
+		<Value>Vui lòng cung cấp một tên.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerAttributes.Values.SaveBeforeEdit">
+		<Value>Bạn cần phải lưu các thuộc tính của khách hàng trước khi bạn có thể thêm giá trị cho trang thuộc tính của khách hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles">
+		<Value>Quyền hạn khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Added">
+		<Value>Thêm mới thành công quyền hạn khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.AddNew">
+		<Value>Thêm một quyền hạn mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.BackToList">
+		<Value>Trở lại danh sách quyền hạn khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Deleted">
+		<Value>Quyền hạn khách hàng đã xóa thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.EditCustomerRoleDetails">
+		<Value>Chỉnh sửa chi tiết quyền hạn khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Active">
+		<Value>Kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Active.CantEditSystem">
+		<Value>Quyền hạn khách hàng hệ thống không thể được vô hiệu hóa.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Active.Hint">
+		<Value>Xác nhận kích hoạt quyền hạn này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.FreeShipping">
+		<Value>Miễn phí vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.FreeShipping.Hint">
+		<Value>Xác nhận cho phép quyền hạn khách hàng này để được miễn phí vận chuyển đơn đặt hàng của mình.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.IsSystemRole">
+		<Value>Quản lý hệ thống</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.IsSystemRole.Hint">
+		<Value>Một giá trị chỉ ra cho dù đó là một quyền hạn hệ thống</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Name.Hint">
+		<Value>Tên quyền hạn khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.Name.Required">
+		<Value>Hãy cung cấp tên.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct">
+		<Value>Mua cùng với sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct.Choose">
+		<Value>Chọn sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct.Hint">
+		<Value>Một khách hàng được thêm vào vai trò của khách hàng này một lần một sản phẩm cụ thể được mua (trả tiền). Xin lưu ý rằng trong trường hợp hoàn lại tiền hoặc hủy đơn đặt hàng bạn phải tự loại bỏ một khách hàng từ vai trò này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct.Registered">
+		<Value>Bạn không thể chỉ "Mua cùng với sản phẩm" giá trị cho "đăng ký" vai trò của khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.PurchasedWithProduct.Remove">
+		<Value>Xóa</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.SystemName">
+		<Value>Tên hệ thống</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.SystemName.CantEditSystem">
+		<Value>Tên hệ thống của quyền hạn khách hàng hệ thống không thể chỉnh sửa.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.SystemName.Hint">
+		<Value>Tên hệ thống của quyền hạn khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.TaxExempt">
+		<Value>Miễn thuế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Fields.TaxExempt.Hint">
+		<Value>Xác nhận để cho phép quyền hạn khách hàng này để mua hàng miễn thuế.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.CustomerRoles.Updated">
+		<Value>Quyền hạn khách hàng được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers">
+		<Value>Khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.ActivityLog">
+		<Value>Nhật ký hoạt động</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.ActivityLog.ActivityLogType">
+		<Value>Loại hoạt động</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.ActivityLog.Comment">
+		<Value>Ghi chú</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.ActivityLog.CreatedOn">
+		<Value>Thời gian</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Added">
+		<Value>Thêm mới khách hàng thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AddNew">
+		<Value>Thêm mới một khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses">
+		<Value>Địa chỉ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses.AddButton">
+		<Value>Thêm mới địa chỉ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses.Added">
+		<Value>Thêm mới địa chỉ thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses.AddNew">
+		<Value>Thêm một địa chỉ mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses.BackToCustomer">
+		<Value>Trở lại chi tiết danh sách khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses.EditAddress">
+		<Value>Chỉnh sửa địa chỉ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Addresses.Updated">
+		<Value>Địa chỉ được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AdminCouldNotbeVendor">
+		<Value>Một khách hàng với một đối tác có liên quan không đươc thuộc nhóm quyền 'Administrators'</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AssociatedExternalAuth">
+		<Value>Xác thực bên ngoài</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AssociatedExternalAuth.Fields.AuthMethodName">
+		<Value>Phương thức xác thực</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AssociatedExternalAuth.Fields.Email">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AssociatedExternalAuth.Fields.ExternalIdentifier">
+		<Value>Định danh bên ngoài</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.AssociatedExternalAuth.Hint">
+		<Value>Một danh sách các định danh xác thực bên ngoài.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.BackInStockSubscriptions">
+		<Value>Trở lại phần đăng ký cổ phần</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.BackInStockSubscriptions.Store">
+		<Value>Lưu trữ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.BackInStockSubscriptions.Product">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.BackInStockSubscriptions.CreatedOn">
+		<Value>Đăng ký</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.BackToList">
+		<Value>Trở lại danh sách khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.CannotBeInVendoRoleWithoutVendorAssociated">
+		<Value>Một khách hàng thuộc nhóm quyền đối tác cần phải có một tài khoản đối tác có liên quan.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.CurrentShoppingCart">
+		<Value>Giỏ hàng hiện tại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.CurrentWishlist">
+		<Value>Danh sách sản phẩm yêu thích hiện tại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.CustomerRoles">
+		<Value>Quyền hạn khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.CustomerRoles.NoRoles">
+		<Value>Không có sẵn quyền hạn khách hàng. Tạo ít nhất một quyền khách hàng trước khi thiết lập.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Deleted">
+		<Value>Khách hàng được xóa thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.EditCustomerDetails">
+		<Value>Chỉnh sửa chi tiết khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Active">
+		<Value>Kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Active.Hint">
+		<Value>Tài khoản của khách hàng đã kích hoạt. Để vô hiệu hóa / tài khoản của khách hàng, bỏ chọn này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.AdminComment">
+		<Value>Bình luận của quản trị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.AdminComment.Hint">
+		<Value>Bình luận của quản trị. Để sử dụng trong nội bộ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Affiliate">
+		<Value>Liên kêt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Affiliate.Hint">
+		<Value>Các liên kết chi nhánh của khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Affiliate.Remove">
+		<Value>Gỡ bỏ liên kết</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.City">
+		<Value>Thành phố</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.City.Hint">
+		<Value>Thành phố.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.City.Required">
+		<Value>Nhập thành phố là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Company">
+		<Value>Tên cơ quan</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Company.Hint">
+		<Value>Tên cơ quan công tác.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Company.Required">
+		<Value>Nhập tên công ty là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Country">
+		<Value>Quốc gia</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Country.Hint">
+		<Value>Quốc gia của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn">
+		<Value>Nhập ghi chú cho đơn hàng này</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.CreatedOn.Hint">
+		<Value>Ngày hồ sơ khách hàng được tạo ra.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.CustomerRoles">
+		<Value>Quyền hạn khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.DateOfBirth">
+		<Value>Ngày sinh</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.DateOfBirth.Hint">
+		<Value>Ngày sinh nhật của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Email">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Email.Hint">
+		<Value>Địa chỉ Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Email.Required">
+		<Value>Hãy cung cấp email.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Fax">
+		<Value>Fax</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Fax.Hint">
+		<Value>Fax.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Fax.Required">
+		<Value>Nhập số fax là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.FirstName">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.FirstName.Hint">
+		<Value>Tên khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.FirstName.Required">
+		<Value>Tên khách hàng được yêu cầu.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.FullName">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Gender">
+		<Value>Giới tính</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Gender.Female">
+		<Value>Nữ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Gender.Hint">
+		<Value>Giới tính khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Gender.Male">
+		<Value>Nam</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.IPAddress">
+		<Value>Địa chỉ IP</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.IPAddress.Hint">
+		<Value>Địa chỉ IP sử dụng cuối cùng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.IsTaxExempt">
+		<Value>Miễn thuế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.IsTaxExempt.Hint">
+		<Value>Xác định khách hàng có được miễn thuế.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastActivityDate">
+		<Value>Kích hoạt lần cuối</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastActivityDate.Hint">
+		<Value>Ngày kích hoạt lần cuối</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastName">
+		<Value>Họ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastName.Hint">
+		<Value>Họ của khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastName.Required">
+		<Value>Họ được yêu cầu.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastVisitedPage">
+		<Value>Trang truy cập cuối cùng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.LastVisitedPage.Hint">
+		<Value>Ngày truy cập cuối cùng (lưu trữ công khai).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Newsletter">
+		<Value>Bản tin</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Newsletter.Hint">
+		<Value>Check để nhận bản tin.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Password">
+		<Value>Mật khẩu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Password.Change">
+		<Value>Đổi mật khẩu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Password.Hint">
+		<Value>Mật khẩu khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Phone">
+		<Value>Điện thoại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Phone.Hint">
+		<Value>Số điện thoại.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Phone.Required">
+		<Value>Nhập số điện thoại là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StateProvince">
+		<Value>Tỉnh / vùng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StateProvince.Hint">
+		<Value>Tên tỉnh / vùng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress">
+		<Value>Địa chỉ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress.Hint">
+		<Value>Địa chỉ liên hệ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress.Required">
+		<Value>Nhập địa chỉ là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress2">
+		<Value>Địa chỉ 2</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress2.Hint">
+		<Value>Địa chỉ liên hệ 2.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.StreetAddress2.Required">
+		<Value>Nhập địa chỉ 2 là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.SystemName">
+		<Value>Tên hệ thống</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.SystemName.Hint">
+		<Value>Tên hệ thống quyền hạn của khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.TimeZoneId">
+		<Value>Múi giờ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.TimeZoneId.Hint">
+		<Value>Múi giờ hiển thị.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Username">
+		<Value>Tên sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Username.Hint">
+		<Value>Tên sử dụng của khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Username.Required">
+		<Value>Hãy cung cấp tên sử dụng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.VatNumber">
+		<Value>Mã số thuế giá trị gia tăng (VAT)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.VatNumber.Hint">
+		<Value>Nhập vào mã số thuế giá trị gia tăng (VAT). Chú ý: nhận mã số có mã quốc gia (ví dụ. GB 111 111 11)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.VatNumber.MarkAsInvalid">
+		<Value>Đánh dấu mã số thuế giá trị gia tăng là không hợp lệ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.VatNumber.MarkAsValid">
+		<Value>Đánh dấu số thuế giá trị gia tăng là hợp lệ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.VatNumberStatus">
+		<Value>Trạng thái: {0}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Vendor">
+		<Value>Quản lý của đối tác</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Vendor.Hint">
+		<Value>Chọn một đối tác liên kết đến tài khoản của khách hàng này. Khi liên kết khách hàng này sẽ có thể đăng nhập vào để  lựa chọn thông tin đối tác và quản lý các sản phẩm và đơn đặt hàng của mình.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.Vendor.None">
+		<Value>Không phải đối tác</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode">
+		<Value>Mã bưu điện</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode.Hint">
+		<Value>Mã bưu điện.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Fields.ZipPostalCode.Required">
+		<Value>Nhập mã bưu điện là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Impersonate">
+		<Value>Đặt hàng (ẩn danh)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Impersonate.Button">
+		<Value>Đặt hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Impersonate.Description1">
+		<Value>Trong quá trình đặt hàng, bạn sẽ thấy gần như chính xác những gì khách hàng sẽ thấy trong khi duyệt trang web này, với ngoại lệ của các tiêu đề (bạn sẽ thấy mail andanh@fx.com.vn có thể là ẩn danh - khi kết thúc phiên). Điều hướng đến sản phẩm khách hàng muốn và thêm chúng vào giỏ hàng chính xác như khách hàng, sau đó sử dụng nút "Thanh toán" để tiến hành thông qua quy trình kiểm tra thông thường.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Impersonate.Description2">
+		<Value>Lưu ý: khi kết thúc nhấn vào liên kết để kết thúc thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Info">
+		<Value>Thông tin khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.CustomerRoles">
+		<Value>Quyền hạn khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.CustomerRoles.Hint">
+		<Value>Lọc bởi quyền hạn khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchCompany">
+		<Value>Cơ quan</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchCompany.Hint">
+		<Value>Tìm theo cơ quan.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchDateOfBirth">
+		<Value>Ngày sinh</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchDateOfBirth.Day">
+		<Value>Ngày</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchDateOfBirth.Hint">
+		<Value>Lọc theo ngày sinh. Không chọn bất kỳ giá trị để tải tất cả hồ sơ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchDateOfBirth.Month">
+		<Value>Tháng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchEmail">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchEmail.Hint">
+		<Value>Tìm kiếm một email cụ thể.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchFirstName">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchFirstName.Hint">
+		<Value>Tìm theo tên.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchLastName">
+		<Value>Họ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchLastName.Hint">
+		<Value>Tìm theo họ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchPhone">
+		<Value>Điện thoại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchPhone.Hint">
+		<Value>Tìm theo số điện thoại.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchUsername">
+		<Value>Tên sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchUsername.Hint">
+		<Value>Tìm theo tên sử dụng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchZipCode">
+		<Value>Mã bưu điện</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.List.SearchZipCode.Hint">
+		<Value>Tìm theo mã bưu điện.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders">
+		<Value>Đơn đặt hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.CreatedOn">
+		<Value>Nhập tin nhắn cho đơn hàng này</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.ID">
+		<Value>Mã đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.OrderStatus">
+		<Value>Tình trạng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.OrderTotal">
+		<Value>Tổng giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.PaymentStatus">
+		<Value>Tình trạng thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.ShippingStatus">
+		<Value>Tình trạng vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Orders.Store">
+		<Value>Gian hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.PasswordChanged">
+		<Value>Thay đổi mật khẩu thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.ReSendActivationMessage">
+		<Value>Gửi lại tin xác nhận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.ReSendActivationMessage.Success">
+		<Value>Email xác nhận đã gửi thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints">
+		<Value>Điểm thưởng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.AddButton">
+		<Value>Thêm điểm thưởng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.AddTitle">
+		<Value>Thêm điểm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsMessage">
+		<Value>Tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsMessage.Hint">
+		<Value>Nhập tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsStore">
+		<Value>Cửa hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsStore.Hint">
+		<Value>Chọn một cửa hàng. Nó sẽ có ích khi bạn bỏ tùy chọn "điểm tích lũy cho tất cả các cửa hàng".</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsValue">
+		<Value>Điểm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.AddRewardPointsValue.Hint">
+		<Value>Nhập điểm cần thêm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Date">
+		<Value>Ngày</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Message">
+		<Value>Tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Messages">
+		<Value>Các tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.Points">
+		<Value>Điểm thưởng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.RewardPoints.Fields.PointsBalance">
+		<Value>Cân bằng điểm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendEmail">
+		<Value>Gửi email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendEmail.Body">
+		<Value>Nội dung email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendEmail.Body.Hint">
+		<Value>Nhập vào thông điệp của email.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendEmail.Queued">
+		<Value>Email được xếp vào hàng đợi thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendEmail.Subject">
+		<Value>Chủ đề</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendEmail.Subject.Hint">
+		<Value>Nhập vào chủ đề của email.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM">
+		<Value>Gửi tin nhắn cá nhân</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Message">
+		<Value>Tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Message.Hint">
+		<Value>Nhập tin nhắn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Messages">
+		<Value>Tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Messages.Hint">
+		<Value>Nhập nội dung tin nhắn cá nhân.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Sent">
+		<Value>Gửi tin nhắn cá nhân thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Subject">
+		<Value>Chủ đề</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.SendPM.Subject.Hint">
+		<Value>Nhập vào chủ đề của tin nhắn cá nhân.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.Updated">
+		<Value>Khách hàng được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Customers.VendorShouldBeInVendorsRole">
+		<Value>Lưu ý: nếu bạn có một đối tác liên kết với khách hàng này, đảm bảo rằng khách hàng này thuộc nhóm quyền 'Đối tác'</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Guest">
+		<Value>Khách</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers">
+		<Value>Khách hàng trực tuyến</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.CustomerInfo">
+		<Value>Thông tin khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.IPAddress">
+		<Value>Địa chỉ IP</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.LastActivityDate">
+		<Value>Lần cuối kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.LastVisitedPage">
+		<Value>Lần truy cập cuối cùng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.LastVisitedPage.Disabled">
+		<Value>"Lần cuối cùng ghé thăm cửa hàng" Thiết lập là vô hiệu hóa</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.OnlineCustomers.Fields.Location">
+		<Value>Vị trí</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports">
+		<Value>Báo cáo khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.BestByNumberOfOrders">
+		<Value>Khách hàng theo số lượng đơn đặt hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.BestByOrderTotal">
+		<Value>Khách hàng theo Tổng số đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.EndDate">
+		<Value>Ngày kết thúc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.EndDate.Hint">
+		<Value>Ngày cuối cùng tìm kiếm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.Fields.Customer">
+		<Value>Khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.Fields.OrderCount">
+		<Value>Số lượng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.Fields.OrderTotal">
+		<Value>Tổng giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.OrderStatus">
+		<Value>Tình trạng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.OrderStatus.Hint">
+		<Value>Tìm kiếm một tình trạng đặt hàng cụ thể. ví dụ:Hoàn thành.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.PaymentStatus">
+		<Value>Tình trạng thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.PaymentStatus.Hint">
+		<Value>Tìm kiếm một tình trạng thanh toán cụ thể. ví dụ: Đã thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.ShippingStatus">
+		<Value>Tình trạng vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.ShippingStatus.Hint">
+		<Value>Tìm theo tình trạng vận chuyển cụ thể. ví dụ: Chưa vận chuyển.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.StartDate">
+		<Value>Ngày bắt đầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.BestBy.StartDate.Hint">
+		<Value>Ngày bắt đầu tìm kiếm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers">
+		<Value>Khách hàng đã đăng ký</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers.Fields.Customers">
+		<Value>Tổng số</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers.Fields.Period">
+		<Value>Trước</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers.Fields.Period.14days">
+		<Value>Trong 14 ngày qua</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers.Fields.Period.7days">
+		<Value>Trong 7 ngày qua</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers.Fields.Period.month">
+		<Value>Trong một tháng qua</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RegisteredCustomers.Fields.Period.year">
+		<Value>Trong 1 năm qua</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Customers.Reports.RunReport">
+		<Value>Chạy báo cáo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Dashboard">
+		<Value>Bảng điều khiển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Dashboard.StoreStatistics">
+		<Value>Thống kê lưu trữ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.DownloadUploadedFile">
+		<Value>Download tập tin tải lên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.DownloadURL">
+		<Value>Đường dẫn download</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.DownloadURLSaved">
+		<Value>File tải về được lưu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.RemoveDownload">
+		<Value>Hủy bỏ download</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.SaveDownloadURL">
+		<Value>Lưu file download</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.UploadFile">
+		<Value>Tải tập tin lên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Download.UseDownloadURL">
+		<Value>Sử dụng địa chỉ URL tải về</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards">
+		<Value>Thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Added">
+		<Value>Thẻ quà tặng mới được thêm thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.AddNew">
+		<Value>Thêm mới một thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.BackToList">
+		<Value>Trở lại danh sách thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Deleted">
+		<Value>Thẻ quà tặng được xóa thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.EditGiftCardDetails">
+		<Value>Chỉnh sửa chi tiết thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.Amount">
+		<Value>Giá trị khởi tạo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.Amount.Hint">
+		<Value>Giá trị khởi tạo của thẻ quà tặng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.CreatedOn">
+		<Value>Nhập tin nhắn cho đơn hàng này</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.CreatedOn.Hint">
+		<Value>Ngày / thời gian các thẻ quà tặng được tạo ra / mua.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode">
+		<Value>Mã phiếu giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode.Generate">
+		<Value>Tạo mã</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.GiftCardCouponCode.Hint">
+		<Value>Thẻ quà tặng phiếu giảm giá đang được sử dụng trong quá trình thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.GiftCardType">
+		<Value>Loại thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.GiftCardType.Hint">
+		<Value>Loại thẻ quà tặng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.IsGiftCardActivated">
+		<Value>Thẻ quà tặng được kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.IsGiftCardActivated.Hint">
+		<Value>Xác định liệu thẻ quà tặng này được kích hoạt và có thể được sử dụng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.IsRecipientNotified">
+		<Value>Được người nhận thông báo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.IsRecipientNotified.Hint">
+		<Value>Được người nhận thông báo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.IsRecipientNotified.Notify">
+		<Value>Thông báo cho người nhận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.Message">
+		<Value>Tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.Message.Hint">
+		<Value>Nhập tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.Order">
+		<Value>Đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.Order.Hint">
+		<Value>Thẻ quà tặng được dùng với đơn hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.RecipientEmail">
+		<Value>Email người nhận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.RecipientEmail.Hint">
+		<Value>Nhập vào email người nhận.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.RecipientName">
+		<Value>Tên người nhận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.RecipientName.Hint">
+		<Value>Nhập vào tên người nhận.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.RemainingAmount">
+		<Value>Số tiền còn lại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.RemainingAmount.Hint">
+		<Value>Số tiền còn lại của thẻ quà tặng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.SenderEmail">
+		<Value>Người gửi email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.SenderEmail.Hint">
+		<Value>Nhập vào email người gửi.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.SenderName">
+		<Value>Tên người gửi</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Fields.SenderName.Hint">
+		<Value>Tên người gửi là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.History">
+		<Value>Lịch sử sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.History.CreatedOn">
+		<Value>Đã sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.History.Order">
+		<Value>Đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.History.UsedValue">
+		<Value>Số tiền được sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Info">
+		<Value>Thông tin thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.Activated">
+		<Value>Đã kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.Activated.All">
+		<Value>Tất cả</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.Activated.ActivatedOnly">
+		<Value>Danh sách đã kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.Activated.DeactivatedOnly">
+		<Value>Danh sách chưa kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.Activated.Hint">
+		<Value>Tìm kiếm một tình trạng thẻ quà tặng cụ thể. ví dụ:Đã kích hoạt.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.CouponCode">
+		<Value>Mã thẻ quà tặng giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.CouponCode.Hint">
+		<Value>Một mã thẻ quà tặng mua hàng giảm giá. Để có sản phẩm nào để tải tất cả hồ sơ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.RecipientName">
+		<Value>Tên người nhận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.List.RecipientName.Hint">
+		<Value>Tìm kiếm theo tên người nhận. Bỏ trống để tải tất cả các bản ghi.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.GiftCards.Updated">
+		<Value>Thẻ quà tặng được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Header.ClearCache">
+		<Value>Xóa cache</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Header.LoggedInAs">
+		<Value>Đăng nhập bởi: {0}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Header.Logout">
+		<Value>Đăng xuất?</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Header.PublicStore">
+		<Value>Gian hàng chung</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Header.RestartApplication">
+		<Value>Khởi động lại ứng dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Header.RestartApplication.Progress">
+		<Value>Đang khởi động lại ứng dụng...</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Help">
+		<Value>Trợ giúp</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Help.Forums">
+		<Value>Cộng đồng diễn đàn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Help.SupportServices">
+		<Value>Dịch vụ hỗ trợ cao cấp</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Help.Topics">
+		<Value>Chủ đề trợ giúp</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Home">
+		<Value>Trang chủ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.NopCommerceNews">
+		<Value>Tin tức phi thương mại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.NopCommerceNews.HideAdv">
+		<Value>Ẩn quảng cáo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.NopCommerceNews.ShowAdv">
+		<Value>Hiện quáng cáo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders">
+		<Value>Đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Address1">
+		<Value>Địa chỉ 1</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Address2">
+		<Value>Địa chỉ 2</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.BackToOrder">
+		<Value>Trở lại chi tiết đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.City">
+		<Value>Thành phố</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Company">
+		<Value>Cơ quan</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Country">
+		<Value>Quốc gia</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.EditAddress">
+		<Value>Chỉnh sửa địa chỉ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Email">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Fax">
+		<Value>Fax</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.FullName">
+		<Value>Tên đầy đủ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.Phone">
+		<Value>Điện thoại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.StateProvince">
+		<Value>Tỉnh / vùng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Address.ZipPostalCode">
+		<Value>Mã bưu điện</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.BackToList">
+		<Value>Trở lại danh sách đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.BillingInfo">
+		<Value>Thông tin thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.EditOrderDetails">
+		<Value>Chỉnh sửa chi tiết đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Affiliate">
+		<Value>Liên kết</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Affiliate.Hint">
+		<Value>Các liên kết đơn đặt hàng được liên kết với.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.AuthorizationTransactionID">
+		<Value>Mã ủy quền giao dịch</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.AuthorizationTransactionID.Hint">
+		<Value>Nhận diện giao dịch ủy quyền nhận được từ cổng thanh toán của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.BillingAddress">
+		<Value>Địa chỉ thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.BillingAddress.Hint">
+		<Value>Thông tin địa chỉ thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CancelCC">
+		<Value>Hủy chỉnh sửa</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CancelOrderTotals">
+		<Value>Hủy tổng số đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Capture">
+		<Value>Chụp hình</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CaptureTransactionID">
+		<Value>Chụp hình lại mã giao dịch</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CaptureTransactionID.Hint">
+		<Value>Chụp định danh giao dịch nhận được từ cổng thanh toán của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardCVV2">
+		<Value>Thẻ CVV2</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardCVV2.Hint">
+		<Value>Bảo mật mã thẻ được sử dụng trong giao dịch.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardExpirationMonth">
+		<Value>Thời hạn tháng của thẻ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardExpirationMonth.Hint">
+		<Value>Thời hạn tháng của thẻ hết hạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardExpirationYear">
+		<Value>Thời hạn năm của thẻ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardExpirationYear.Hint">
+		<Value>Thời hạn năm của thẻ hết hạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardName">
+		<Value>Tên thẻ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardName.Hint">
+		<Value>Tên trên thẻ được sử dụng trong giao dịch.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardNumber">
+		<Value>Số thẻ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardNumber.Hint">
+		<Value>Số lượng thẻ được sử dụng trong giao dịch.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardType">
+		<Value>Loại thẻ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CardType.Hint">
+		<Value>Các loại thẻ được sử dụng trong giao dịch.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CreatedOn">
+		<Value>Nhập tin nhắn ghi chú cho đơn hàng này</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CreatedOn.Hint">
+		<Value>Ngày / thời gian để được đặt / tạo ra.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Customer">
+		<Value>Khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Customer.Hint">
+		<Value>Các khách hàng đặt hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CustomerEmail">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CustomerEmail.Hint">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CustomerIP">
+		<Value>Địa chỉ IP khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CustomerIP.Hint">
+		<Value>Địa chỉ IP khách hàng từ thứ tự được đặt.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CustomValues">
+		<Value>Giá trị tùy chỉnh</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.CustomValues.Hint">
+		<Value>Giá trị tùy chỉnh từ các phương thức thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.ExclTax">
+		<Value>Không bao gồm thuế:</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.InclTax">
+		<Value>Bao gồm thuế:</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderShipping">
+		<Value>Đơn hàng vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderShipping.Hint">
+		<Value>Chỉnh sửa chi phí vận chuyển tổng số đơn đặt hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderSubtotal">
+		<Value>Tổng giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderSubtotal.Hint">
+		<Value>Chỉnh sửa tổng số phụ đơn hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderSubTotalDiscount">
+		<Value>Giảm giá trên tổng giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderSubTotalDiscount.Hint">
+		<Value>Chỉnh sửa tổng số phụ đơn hàng giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderTotal">
+		<Value>Tổng giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderTotal.Hint">
+		<Value>Chỉnh sửa tổng giá của đơn hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderTotalDiscount">
+		<Value>Đơn hàng giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.OrderTotalDiscount.Hint">
+		<Value>Chỉnh sửa tổng số đơn hàng giảm giá được áp dụng trong đơn hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.PaymentMethodAdditionalFee">
+		<Value>Phương thức thanh toán bổ sung phí</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.PaymentMethodAdditionalFee.Hint">
+		<Value>Chỉnh sửa phương thức thanh toán bổ sung phí cho đơn hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.Tax">
+		<Value>Thuế đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.Tax.Hint">
+		<Value>Chỉnh sửa tổng số thuế áp dụng cho đơn hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.TaxRates">
+		<Value>Tỉ lệ thuế suất đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Edit.TaxRates.Hint">
+		<Value>Chỉnh sửa các mức thuế suất áp dụng cho đơn hàng này ([tỷ lệ]: [tổng thuế] - cách nhau bởi dấu chấm phẩy).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.EditCC">
+		<Value>Chỉnh sửa thẻ tín dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.EditOrderTotals">
+		<Value>Chỉnh sửa giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.GiftCardInfo">
+		<Value>Thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.GiftCardInfo.Hint">
+		<Value>Áp dụng thẻ quà tặng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ID">
+		<Value>Mã đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ID.Hint">
+		<Value>Mã số đơn hàng là duy nhất.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.MarkAsPaid">
+		<Value>Đánh dấu đã thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderGuid">
+		<Value>Mã nhận diện quốc tế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderGuid.Hint">
+		<Value>Tài liệu tham khảo nội bộ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderShippingExclTax">
+		<Value>Đơn hàng vận chuyển (Chưa có thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderShippingExclTax.Hint">
+		<Value>Tổng chi phí vận chuyển cho các đơn hàng này (Chưa có thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderShippingInclTax">
+		<Value>Đơn hàng vận chuyển (Đã bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderShippingInclTax.Hint">
+		<Value>Tổng chi phí vận chuyển cho các đơn hàng này (Đã bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderStatus">
+		<Value>Tình trạng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderStatus.Cancel">
+		<Value>Hủy đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderStatus.Change">
+		<Value>Change status</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderStatus.Change.ForAdvancedUsers">
+		<Value>Tùy chọn này chỉ dành cho người dùng cao cấp (không nên thay đổi bằng tay). Tất cả những hành động thích hợp (chẳng hạn như điều chỉnh hàng tồn kho, gửi email thông báo, điểm thưởng, thẻ quà tặng kích hoạt / vô hiệu hóa, vv) phải được thực hiện bằng tay trong trường hợp này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderStatus.Hint">
+		<Value>Tình trạng của đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubTotalDiscountExclTax">
+		<Value>Tổng phụ của đơn hàng giảm giá(Chưa có thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubTotalDiscountExclTax.Hint">
+		<Value>Tổng phụ giảm giá của đơn hàng này (Chưa có thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubTotalDiscountInclTax">
+		<Value>Tổng phụ của đơn hàng giảm giá (Đã bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubTotalDiscountInclTax.Hint">
+		<Value>Tổng phụ giảm giá của đơn hàng này (Chưa có thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubtotalExclTax">
+		<Value>Tổng giá trị đơn hàng (Chưa có thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubtotalExclTax.Hint">
+		<Value>Tổng phụ của đơn hàng này (Chưa có thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubtotalInclTax">
+		<Value>tổng số phụ đơn hàng (Đã bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderSubtotalInclTax.Hint">
+		<Value>Tổng phụ của đơn hàng này (Đã bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderTotal">
+		<Value>Tổng giá trị đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderTotal.Hint">
+		<Value>Tổng chi phí của đơn hàng này (bao gồm giảm giá, vận chuyển và thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderTotalDiscount">
+		<Value>Đơn hàng giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderTotalDiscount.Hint">
+		<Value>Tổng số chiết khấu được áp dụng theo đơn hàng này. Quản lý giảm giá của bạn từ chương trình khuyến mãi: Giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.OrderWeight.Hint">
+		<Value>Tổng khối lượng của đơn hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PartialRefund">
+		<Value>Hoàn trả một phần</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PartialRefund.AmountToRefund">
+		<Value>Số tiền hoàn trả</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PartialRefund.AmountToRefund.Hint">
+		<Value>Nhập số tiền hoàn trả.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PartialRefund.AmountToRefund.Max">
+		<Value>Số tiền lớn nhất là {0} {1}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PartialRefund.OrderInfo">
+		<Value>Hoàn trả một phần cho đơn hàng #{0}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PartialRefundOffline">
+		<Value>Hoàn trả một phần (trực tiếp)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentMethod">
+		<Value>Phương thức thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentMethod.Hint">
+		<Value>Các phương thức thanh toán được sử dụng cho giao dịch này. Bạn có thể quản lý các phương thức thanh toán từ cấu hình: Thanh toán: Các phương thức thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentMethodAdditionalFeeExclTax">
+		<Value>Phương thức thanh toán bổ sung phí (không bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentMethodAdditionalFeeExclTax.Hint">
+		<Value>Phương thức thanh toán lệ phí bổ sung cho đơn hàng này (không bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentMethodAdditionalFeeInclTax">
+		<Value>Phương thức thanh toán bổ sung phí (bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentMethodAdditionalFeeInclTax.Hint">
+		<Value>Phương thức thanh toán lệ phí bổ sung cho đơn hàng này (bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentStatus">
+		<Value>Tình trạng thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.PaymentStatus.Hint">
+		<Value>Tình trạng thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Profit">
+		<Value>Lợi nhuận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Profit.Hint">
+		<Value>Lợi nhuận từ đơn hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RecurringPayment">
+		<Value>Thanh toán định kỳ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RecurringPayment.Hint">
+		<Value>Đây là đơn hàng định kỳ. Xem hồ sơ thanh toán định kỳ thích hợp.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RedeemedRewardPoints">
+		<Value>Điểm thưởng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RedeemedRewardPoints.Hint">
+		<Value>Mua lại điểm thưởng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RedeemedRewardPoints.Points">
+		<Value>Điểm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Refund">
+		<Value>Hoàn trả</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RefundedAmount">
+		<Value>Số tiền hoàn trả</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RefundedAmount.Hint">
+		<Value>Tổng số tiền đã hoàn trả.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.RefundOffline">
+		<Value>Hoàn trả (trực tiếp)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.SaveCC">
+		<Value>Lưu thẻ tín dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.SaveOrderTotals">
+		<Value>Lưu tổng số đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingAddress">
+		<Value>Địa chỉ vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingAddress.Hint">
+		<Value>Thông tin địa chỉ vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingAddress.ViewOnGoogleMaps">
+		<Value>Hiển thị địa chỉ trên Google Maps</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingMethod">
+		<Value>Phương thức vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingMethod.Hint">
+		<Value>Các khách hàng lựa chọn phương thức vận chuyển cho đơn hàng này. Bạn có thể quản lý các phương thức vận chuyển từ cấu hình: Vận chuyển: Phương thức vận chuyển.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingStatus">
+		<Value>Tình trạng vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.ShippingStatus.Hint">
+		<Value>Tình trạng của việc vận chuyển.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Store">
+		<Value>Gian hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Store.Hint">
+		<Value>Gian hàng nơi đơn hàng được tạo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.SubscriptionTransactionID">
+		<Value>Đăng ký mã số giao dịch</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.SubscriptionTransactionID.Hint">
+		<Value>Giao dịch nhận dạng thuê bao nhận được từ cổng thanh toán của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Tax">
+		<Value>Thuế đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Tax.Hint">
+		<Value>Tổng số thuế được áp dụng theo đơn hàng này. Quản lý các thiết lập thuế của bạn Cấu hình: Thuế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.UsedDiscounts">
+		<Value>Giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.UsedDiscounts.Hint">
+		<Value>Danh sách các mức giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.VatNumber">
+		<Value>Mã số thuế giá trị gia tăng (VAT)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.VatNumber.Hint">
+		<Value>Sử dụng mã số thuế giá trị gia tăng (VAT)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.Void">
+		<Value>Hết hiệu lực</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Fields.VoidOffline">
+		<Value>Hết hiệu lực (Trực tiếp)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Info">
+		<Value>Thông tin</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.BillingCountry">
+		<Value>Quốc gia của người thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.BillingCountry.Hint">
+		<Value>Lọc theo quốc gia của người thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.BillingEmail">
+		<Value>Địa chỉ email hóa đơn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.BillingEmail.Hint">
+		<Value>Lọc theo địa chỉ email hóa đơn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.BillingLastName">
+		<Value>Họ của người thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.BillingLastName.Hint">
+		<Value>Lọc theo họ của khách hàng thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.EndDate">
+		<Value>Ngày kết thúc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.EndDate.Hint">
+		<Value>Ngày kết thúc tìm kiếm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.GoDirectlyToNumber">
+		<Value>Tới đơn hàng số #</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.GoDirectlyToNumber.Hint">
+		<Value>Tới đơn hàng số #</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.OrderGuid">
+		<Value>Mã nhận diện quốc tế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.OrderGuid.Hint">
+		<Value>Tìm đơn hàng theo mã nhận diện quốc tế (GUID).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.OrderStatus">
+		<Value>Tình trạng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.OrderNotes">
+		<Value>Các ghi chú hóa đơn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.OrderNotes.Hint">
+		<Value>Tìm kiếm trong những ghi chú hóa đơn. Bỏ trống để lấy toàn bộ ghi chú.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.OrderStatus.Hint">
+		<Value>Tìm theo một tình trạng đơn hàng cụ thể. ví dụ: Đã hoàn thành.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.PaymentMethod">
+		<Value>Phương thức thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.PaymentMethod.Hint">
+		<Value>Tìm kiếm theo phương thức thanh toán cụ thể.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.PaymentStatus">
+		<Value>Tình trạng thanh toán</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.PaymentStatus.Hint">
+		<Value>Tìm theo một tình trạng thanh toán cụ thể. ví dụ: Đã thanh toán.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Product">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Product.Hint">
+		<Value>Tìm kiếm một sản phẩm cụ thể.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.ShippingStatus">
+		<Value>Tình trạng vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.ShippingStatus.Hint">
+		<Value>Tìm theo một tình trạng vận chuyển cụ thể. ví dụ: Chưa vận chuyển.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.StartDate">
+		<Value>Ngày bắt đầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.StartDate.Hint">
+		<Value>Ngày bắt đầu tìm kiếm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Store">
+		<Value>Gian hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Store.Hint">
+		<Value>Tìm kiếm theo gian hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Vendor">
+		<Value>Đối tác</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Vendor.Hint">
+		<Value>Tìm kiếm theo đối tác. Bạn sẽ nhìn thấy các đơn hàng từ đối tác.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Warehouse">
+		<Value>Nhà kho</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.List.Warehouse.Hint">
+		<Value>Hiển thị các đơn đặt hàng với các sản phẩm từ một nhà kho quy định.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes">
+		<Value>Các ghi chú hóa đơn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.AddButton">
+		<Value>Thêm ghi chú mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.AddTitle">
+		<Value>Thêm nội dung ghi chú</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.CreatedOn">
+		<Value>Ngày tạo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.DisplayToCustomer">
+		<Value>Hiển thị cho khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.DisplayToCustomer.Hint">
+		<Value>Một giá trị chỉ thị cho dù để hiển thị lưu ý thứ tự này cho một khách hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download">
+		<Value>Tệp đính kèm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.HasDownload">
+		<Value>(kiểm tra để tải lên tập tin)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.Hint">
+		<Value>Tải lên tập tin đính kèm để ghi chú thứ tự này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.Link">
+		<Value>Tải về</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Download.Link.No">
+		<Value>Không có tệp đính kèm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Note">
+		<Value>Ghi chú</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.OrderNotes.Fields.Note.Hint">
+		<Value>Nhập tin nhắn ghi chú đơn đặt hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.PdfInvoice">
+		<Value>Hóa đơn (PDF)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.PdfInvoice.All">
+		<Value>In tất cả hóa đơn (được tìm thấy)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.PdfInvoice.NoOrders">
+		<Value>Không có đơn đặt hàng được lựa chọn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.PdfInvoice.Selected">
+		<Value>In hóa đơn PDF (lựa chọn)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew">
+		<Value>Thêm sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.BackToList">
+		<Value>Trở lại danh sách sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.BackToOrder">
+		<Value>Trở lại chi tiết đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Note1">
+		<Value>Nhấp vào thêm vào sản phẩm quan tâm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Note2">
+		<Value>Do quên không cập nhật tổng số đơn hàng sau khi thêm sản phẩm này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Quantity">
+		<Value>Số lượng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Quantity.Hint">
+		<Value>Nhập vào số lượng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.SKU">
+		<Value>Mã hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalExclTax">
+		<Value>Tổng tiền (không bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalExclTax.Hint">
+		<Value>Nhập tổng tiền (không bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalInclTax">
+		<Value>Tổng tiền (bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.SubTotalInclTax.Hint">
+		<Value>Nhập tổng tiền (bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Title1">
+		<Value>Thêm một sản phẩm vào đơn hàng #{0}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.Title2">
+		<Value>Thêm sản phẩm "{0}" vào đơn hàng #{1}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.UnitPriceExclTax">
+		<Value>Giá (không bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.UnitPriceExclTax.Hint">
+		<Value>Nhập giá (không bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.UnitPriceInclTax">
+		<Value>Giá(bao gồm thuế)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.AddNew.UnitPriceInclTax.Hint">
+		<Value>Nhập giá sản phẩm (bao gồm thuế).</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Discount">
+		<Value>Giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Download">
+		<Value>Sản phẩm có thể download</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Download.Activate">
+		<Value>Kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Download.Deactivate">
+		<Value>Chưa kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Download.DownloadCount">
+		<Value>Số lần download: {0}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Download.ResetDownloadCount">
+		<Value>Tải lại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Download.ResetDownloadCount.Title">
+		<Value>Tải lại</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Edit.ExclTax">
+		<Value>Không bao gồm thuế:</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Edit.InclTax">
+		<Value>Bao gồm thuế:</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.GiftCards">
+		<Value>Thẻ quà tặng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.License">
+		<Value>Tập tin giấy phép (tùy chọn):</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.License.DownloadLicense">
+		<Value>Tải tập tin giấy phép</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.License.UploadFile">
+		<Value>Tải lên tập tin giấy phép</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Picture">
+		<Value>Hình ảnh</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Price">
+		<Value>Giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.ProductName">
+		<Value>Tên sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Quantity">
+		<Value>Số lượng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.RecurringPeriod">
+		<Value>Tự động vận chuyển, hàng ngày {0} {1}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.ReturnRequests">
+		<Value>Yêu cầu hoàn trả</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.SKU">
+		<Value>Mã tồn kho (SKU)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Total">
+		<Value>Tổng số</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Products.Vendor">
+		<Value>Đối tác</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Report.Profit">
+		<Value>Lợi nhuận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Report.Shipping">
+		<Value>Shipping</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Report.Summary">
+		<Value>Tóm tắt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Report.Tax">
+		<Value>Thuế</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Report.Total">
+		<Value>Tổng số</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments">
+		<Value>Lô hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Added">
+		<Value>Thêm một lô hàng thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.AddNew">
+		<Value>Thêm lô hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.AddNew.Title">
+		<Value>Thêm mới lô hàng cho đơn hàng này #{0}</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.AdminComment">
+		<Value>Bình luận của quản trị viên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.AdminComment.Button">
+		<Value>Bình luận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.AdminComment.Hint">
+		<Value>Bình luận. Chỉ dùng trong quản trị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.BackToOrder">
+		<Value>Trở lại chi tiết đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Deleted">
+		<Value>Xóa một lô hàng thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.DeliveryDate">
+		<Value>Ngày nhận</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Button">
+		<Value>Thiết lập ngày giao</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.EnterUtc">
+		<Value>Ngày giờ nên được điền theo chuẩn giờ UTC</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.Hint">
+		<Value>Ngày nhận được lô hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.DeliveryDate.NotYet">
+		<Value>Chưa nhận được</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.DeliverySelected">
+		<Value>Thiết lập như vận chuyển (lựa chọn)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ID">
+		<Value>Lô hàng số #</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List">
+		<Value>Lô hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.City">
+		<Value>Thành phố</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.City.Hint">
+		<Value>Tìm theo một thành phố cụ thể.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.Country">
+		<Value>Quốc gia</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.Country.Hint">
+		<Value>Tìm theo một quốc gia cụ thể.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.EndDate">
+		<Value>Ngày kết thúc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.EndDate.Hint">
+		<Value>Ngày kết thúc (ngày tạo lập lô hàng) cho việc tìm kiếm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.LoadNotShipped">
+		<Value>Tải các vận chuyển không thành công</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.LoadNotShipped.Hint">
+		<Value>Tải các hàng không chỉ được vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.StartDate">
+		<Value>Ngày bắt đầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.StartDate.Hint">
+		<Value>Ngày bắt đầu (ngày tạo lập lô hàng) cho việc tìm kiếm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.StateProvince">
+		<Value>Tỉnh / thành phố</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.StateProvince.Hint">
+		<Value>Tìm theo tỉnh thành cụ thể.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.TrackingNumber">
+		<Value>Mã số theo dõi</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.TrackingNumber.Hint">
+		<Value>Tìm kiếm theo mã số theo dõi (tracking number)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.Warehouse">
+		<Value>Nhà kho</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.List.Warehouse.Hint">
+		<Value>Tải các Lô hàng với các sản phẩm từ một nhà kho quy định.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.NoProductsSelected">
+		<Value>Không có sản phẩm nào được chọn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.NoShipmentsSelected">
+		<Value>Không có hàng được lựa chọn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.OrderID">
+		<Value>Mã đơn hàng #</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.OrderID.Hint">
+		<Value>Thứ tự liên quan đến hàng này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip">
+		<Value>In phiếu bao bì</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip.All">
+		<Value>In phiếu đóng gói lô hàng (tất cả)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.PrintPackagingSlip.Selected">
+		<Value>In phiếu đóng gói lô hàng (tích chọn)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products">
+		<Value>Sản phẩm trong lô hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.ItemDimensions">
+		<Value>Kích thước vật phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.ItemWeight">
+		<Value>Khối lượng vật phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.ProductName">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.QtyOrdered">
+		<Value>Số lượng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.QtyShipped">
+		<Value>Số lượng đơn hàng vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.QtyToShip">
+		<Value>Số lượng xuất kho</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.ShipSeparately">
+		<Value>sản phẩm này nên được vận chuyển riêng biệt!</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.ShipSeparately.Warning">
+		<Value>Cảnh báo:</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.SKU">
+		<Value>Mã tồn kho (SKU)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse">
+		<Value>Kho hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse.ChooseQty">
+		<Value>{0} ({1} Số lượng trong kho, {2} Số lượng dành riêng, {3} Số lượng kế hoạch)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse.NotAvailabe">
+		<Value>Không có nhà kho có sẵn. Bạn không thể gửi sản phẩm này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.Products.Warehouse.QuantityNotEnough">
+		<Value>[Dự trữ - Kế hoạch] số lượng giá trị của một số sản phẩm ít hơn số lượng quy định sẽ được xuất xưởng. Bạn có chắc chắn?</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShipmentStatusEvents">
+		<Value>Các sự kiện hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShipmentStatusEvents.Country">
+		<Value>Quốc gia</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShipmentStatusEvents.Date">
+		<Value>Ngày</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShipmentStatusEvents.Event">
+		<Value>Sự kiện</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShipmentStatusEvents.Location">
+		<Value>Vùng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShippedDate">
+		<Value>Ngày vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Button">
+		<Value>Đã chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShippedDate.EnterUtc">
+		<Value>Ngày giờ điền theo giờ UTC</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShippedDate.Hint">
+		<Value>Ngày lô hàng này được vận chuyển.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShippedDate.NotYet">
+		<Value>Chưa chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ShipSelected">
+		<Value>Thiết lập như vận chuyển (lựa chọn)</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.TotalWeight">
+		<Value>Tổng khối lượng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.TotalWeight.Hint">
+		<Value>Tổng khối lượng lô hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.TrackingNumber">
+		<Value>Số theo dõi</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.TrackingNumber.Button">
+		<Value>Thiết lập số theo dõi</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.TrackingNumber.Hint">
+		<Value>Thiết lập một số theo dõi các lô hàng hiện tại.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.TrackingNumber.ViewOnline">
+		<Value>Xem thông tin theo dõi</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.Shipments.ViewDetails">
+		<Value>Xem chi tiết lô hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.ShippingInfo">
+		<Value>Thông tin vận chuyển</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Orders.ShippingInfo.NotRequired">
+		<Value>Vận chuyển không bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.PageTitle">
+		<Value>Administration</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Picture.RemovePicture">
+		<Value>Gỡ ảnh</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Plugins">
+		<Value>Tiện ích</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Plugins.Saved">
+		<Value>Các plugin đã được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions">
+		<Value>Quản lý tiếp thị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns">
+		<Value>Chiến dịch tiếp thị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Added">
+		<Value>Chiến dịch tiếp thị mới được thêm thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.AddNew">
+		<Value>Thêm mới một chiến dịch tiếp thị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.BackToList">
+		<Value>Trở lại danh sách chiến dịch tiếp thị</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Deleted">
+		<Value>Xóa chiến dịch thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.EditCampaignDetails">
+		<Value>Chỉnh sửa chiến dịch</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.AllowedTokens">
+		<Value>Kích hoạt mã tin nhắn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.AllowedTokens.Hint">
+		<Value>Đây là một danh sách các thẻ tin nhắn, bạn có thể sử dụng trong chiến dịch email của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Body">
+		<Value>Nội dung</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Body.Hint">
+		<Value>Nội dung của chiến dịch email.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Body.Required">
+		<Value>Nội dung là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.CreatedOn">
+		<Value>Ngày tạo</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Name.Hint">
+		<Value>Tên của chiến dịch.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Name.Required">
+		<Value>Tên chiến dịch là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Store">
+		<Value>Giới hạn gian hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Store.Hint">
+		<Value>Chọn một cửa hàng này, người theo dõi sẽ nhận được email này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Subject">
+		<Value>Chủ đề</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Subject.Hint">
+		<Value>Các chủ đề của email chiến dịch của bạn.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.Subject.Required">
+		<Value>Chủ đề là bắt buộc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.TestEmail">
+		<Value>Gửi email kiểm tra</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Fields.TestEmail.Hint">
+		<Value>Địa chỉ email mà bạn muốn gửi email thử nghiệm của bạn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.MassEmailSentToCustomers">
+		<Value>{0} email được thành công xếp hàng đợi.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.SendMassEmail">
+		<Value>Gửi email hàng loạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.SendTestEmail">
+		<Value>Gửi email thử nghiệm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.TestEmailSentToCustomers">
+		<Value>Email được gửi thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Updated">
+		<Value>Chiến dịch được cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Campaigns.Warning">
+		<Value>Hãy chắc chắn rằng bạn đã thử nghiệm các chiến dịch trước khi gửi cho nhiều khách hàng. Lưu chiến dịch đầu tiên của bạn bằng cách nhấn vào nút "Lưu".</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts">
+		<Value>Giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Added">
+		<Value>Chiến dịch giảm giá mới được thêm thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AddNew">
+		<Value>Thêm chiến dịch giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories">
+		<Value>Đã áp dụng cho các loại sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories.SaveBeforeEdit">
+		<Value>Bạn cần phải lưu chương trình giảm giá trước khi thêm các loại sản phẩm cho chương trình giảm giá này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories.Category">
+		<Value>Loại sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToCategories.AddNew">
+		<Value>Thêm loại sản phẩm mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers">
+		<Value>Đã áp dụng cho các nhà sản xuất</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers.SaveBeforeEdit">
+		<Value>Bạn cần phải lưu chương trình giảm giá trước khi thêm các nhà sản xuất cho chương trình giảm giá này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers.Manufacturer">
+		<Value>Nhà sản xuất</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToManufacturers.AddNew">
+		<Value>Thêm nhà sản xuất mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts">
+		<Value>Đã áp dụng cho các sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts.SaveBeforeEdit">
+		<Value>Bạn cần phải lưu chương trình giảm giá trước khi thêm các sản phẩm cho chương trình giảm giá này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts.Product">
+		<Value>Sản phẩm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.AppliedToProducts.AddNew">
+		<Value>Thêm sản phẩm mới</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.BackToList">
+		<Value>Trở lại danh sách giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Deleted">
+		<Value>Chương trình giảm giá được xóa thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.EditDiscountDetails">
+		<Value>Chỉnh sửa chi tiết giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories">
+		<Value>Chỉ định tới danh mục</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories.Hint">
+		<Value>Danh sách các sản phẩm mà chương trình giảm giá này đang áp dụng. Bạn có thể chỉ định mức giảm giá này trong trang chi tiết danh mục</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToCategories.NoRecords">
+		<Value>Không danh mục nào được chọn</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToSubCategories">
+		<Value>Áp dụng cho các loại sản phẩm phụ</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.AppliedToSubCategories.Hint">
+		<Value>Check để áp dụng giảm giá cho các loại sản phẩm phụ từ loại sản phẩm chính được chọn. Nhưng lưu ý nó có thể ảnh hưởng đến tốc độ tải nếu lồng quá nhiều loại sản phẩm phụ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.CouponCode">
+		<Value>Mã phiếu giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.CouponCode.Hint">
+		<Value>Mã phiếu giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.Discount">
+		<Value>Giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountAmount">
+		<Value>Số tiền được giảm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountAmount.Hint">
+		<Value>Số tiền giảm giá áp dụng cho đơn đặt hàng / mã hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountLimitation">
+		<Value>Giới hạn giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountLimitation.Hint">
+		<Value>Chọn giới hạn giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountPercentage">
+		<Value>Phần trăm giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountPercentage.Hint">
+		<Value>Phần trăm giảm giá áp dụng cho đơn hàng / mã hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountType">
+		<Value>Loại giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.DiscountType.Hint">
+		<Value>Loại giảm giá. Chọn áp dụng cho toàn bộ các đơn hàng hoặc các mã hàng.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.EndDate">
+		<Value>Ngày kết thúc</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.EndDate.Hint">
+		<Value>Ngày kết thúc đợt giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.LimitationTimes">
+		<Value>Số lần</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.LimitationTimes.Hint">
+		<Value>Nhập vào số thời gian giới hạn cho đợt giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.LimitationTimes.Times">
+		<Value>Số lần</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount">
+		<Value>Tổng số tiền được giảm tối đa</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountAmount.Hint">
+		<Value>Tổng số tiền được giảm tối đa. Bỏ trống để cho phép bất kỳ giá giảm nào cũng có thể áp dụng. Nếu bạn muốn sử dụng các loại giảm giá từ "Áp dụng từ các sản phẩm", chương trình này sẽ áp dụng cho mỗi sản phẩm riêng biệt.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity">
+		<Value>Tổng số lượng sản phẩm được giảm giá tối đa</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.MaximumDiscountedQuantity.Hint">
+		<Value>Tổng số lượng sản phẩm được giảm giá tối đa. Ví dụm bạn có thể có hai sản phẩm (cùng loại) trong giỏ hàng nhưng chỉ có một sẽ được giảm. Nó sẽ được áp dụng giống như "mua 2 tặng 1". Bỏ trống nếu số lượng được giảm là bất kỳ.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.Name">
+		<Value>Tên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.Name.Hint">
+		<Value>Tên của đợt giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.Name.Required">
+		<Value>Xin vui lòng cung cấp tên.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.RequiresCouponCode">
+		<Value>Yêu cầu có mã phiếu giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.RequiresCouponCode.Hint">
+		<Value>Nếu chọn xác nhận một khách hàng phải có mã phiếu giảm giá được áp dụng cho đợt giảm giá này.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.StartDate">
+		<Value>Ngày bắt đầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.StartDate.Hint">
+		<Value>Thời gian bắt đầu đợt giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.TimesUsed">
+		<Value>Số lần đã sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.UsePercentage">
+		<Value>Giảm giá theo phần trăm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Fields.UsePercentage.Hint">
+		<Value>Xác nhận liệu có đúng số phần trăm đã sử dụng cho đơn hàng/mã hàng này không.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.History">
+		<Value>Lịch sử sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.History.CreatedOn">
+		<Value>Đã sử dụng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.History.Order">
+		<Value>Đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.History.OrderTotal">
+		<Value>Tổng đơn hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Info">
+		<Value>Thông tin giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountCouponCode">
+		<Value>Mã giảm</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountCouponCode.Hint">
+		<Value>Tìm kiếm theo mã giảm.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountName">
+		<Value>Tên giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountName.Hint">
+		<Value>Tìm theo tên giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountType">
+		<Value>Loại giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.List.SearchDiscountType.Hint">
+		<Value>Tìm theo loại giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements">
+		<Value>Các yêu cầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.AddNew">
+		<Value>Thêm mới một yêu cầu giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.DiscountRequirementType">
+		<Value>Loại yêu cầu giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.DiscountRequirementType.Hint">
+		<Value>Chọn một loại yêu cầu giảm giá và thiết lập nó.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.DiscountRequirementType.Select">
+		<Value>Chọn loại yêu cầu giảm giá</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.FailedToSave">
+		<Value>Lưu loại yêu cầu giảm giá không thành công</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.Remove">
+		<Value>Loại bỏ yêu cầu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.SaveBeforeEdit">
+		<Value>Bạn cần lưu đợt giảm giá trước khi bạn có thể thêm yêu cầu cho trang giảm giá.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Requirements.Saved">
+		<Value>Yêu cầu giảm giá được lưu</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.Discounts.Updated">
+		<Value>Đợt giảm giá đã cập nhật thành công.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions">
+		<Value>Đăng ký bản tin</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Active">
+		<Value>Kích hoạt</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.CreatedOn">
+		<Value>Đăng ký trên</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Email">
+		<Value>Email</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Email.Required">
+		<Value>Email là bắt buộc.</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.Fields.Store">
+		<Value>Store</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.ImportEmailsSuccess">
+		<Value>Email {0} được nhập thành công</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.List.CustomerRoles">
+		<Value>Các loại khách hàng</Value>
+	</LocaleResource>
+	<LocaleResource Name="Admin.Promotions.NewsLetterSubscriptions.List.CustomerRoles.Hint">
+		<Value>Tìm theo loại khách hàng cụ thể.</Value>
+	</LocaleResource>
 	<LocaleResource Name="Admin.ContentManagementHome.BlogHome.Description">
 		<Value>Quản lý blog cửa hàng của bạn và ý kiến của khách hàng.</Value>
 	</LocaleResource>
